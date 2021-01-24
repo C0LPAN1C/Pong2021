@@ -92,21 +92,25 @@ extern void Font_get_material_m799A85F3FF161469D8AF8CC0CCA6D550A6491565 (void);
 extern void Font_get_dynamic_m2CA1DFFB862B41EAE100830F654880CD668F23AD (void);
 // 0x00000028 System.Int32 UnityEngine.Font::get_fontSize()
 extern void Font_get_fontSize_m284493C6ABD87266D2DC3D32619D9972F6711261 (void);
-// 0x00000029 System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font)
+// 0x00000029 System.Void UnityEngine.Font::.ctor()
+extern void Font__ctor_m7E2532960BF01745ADB54BBCC43DBBE650A83E4C (void);
+// 0x0000002A System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font)
 extern void Font_InvokeTextureRebuilt_Internal_m35C57E19A7E53A2F2A94DF909E6903DFFEE7679B (void);
-// 0x0000002A System.Boolean UnityEngine.Font::HasCharacter(System.Char)
+// 0x0000002B System.Boolean UnityEngine.Font::HasCharacter(System.Char)
 extern void Font_HasCharacter_m91E1618BC3221EBB83518E5B85D5CA3996FAD10C (void);
-// 0x0000002B System.Boolean UnityEngine.Font::HasCharacter(System.Int32)
+// 0x0000002C System.Boolean UnityEngine.Font::HasCharacter(System.Int32)
 extern void Font_HasCharacter_mEC8A3BB085240EC6B44999C19588319DB644B2AC (void);
-// 0x0000002C System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr)
+// 0x0000002D System.Void UnityEngine.Font::Internal_CreateFont(UnityEngine.Font,System.String)
+extern void Font_Internal_CreateFont_m56BBBD1E61D1DDBD2D67BA3DEC0852E1526E2E5C (void);
+// 0x0000002E System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr)
 extern void FontTextureRebuildCallback__ctor_m58D67535ED1CC9895AB016CBB713A730A73480E0 (void);
-// 0x0000002D System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke()
+// 0x0000002F System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke()
 extern void FontTextureRebuildCallback_Invoke_m7F5D9CAA51DC8C9779104ACF46F668654B35EA1F (void);
-// 0x0000002E System.IAsyncResult UnityEngine.Font/FontTextureRebuildCallback::BeginInvoke(System.AsyncCallback,System.Object)
+// 0x00000030 System.IAsyncResult UnityEngine.Font/FontTextureRebuildCallback::BeginInvoke(System.AsyncCallback,System.Object)
 extern void FontTextureRebuildCallback_BeginInvoke_m3F36739573BA8EE2C6C3BF90DC37E9D78AD7365F (void);
-// 0x0000002F System.Void UnityEngine.Font/FontTextureRebuildCallback::EndInvoke(System.IAsyncResult)
+// 0x00000031 System.Void UnityEngine.Font/FontTextureRebuildCallback::EndInvoke(System.IAsyncResult)
 extern void FontTextureRebuildCallback_EndInvoke_m3FDA95B07122814A8E63A8B7FFB5BCA7EC157B2C (void);
-static Il2CppMethodPointer s_methodPointers[47] = 
+static Il2CppMethodPointer s_methodPointers[49] = 
 {
 	TextGenerationSettings_CompareColors_m2D96C913B3B3004B54E2DF50B1D080E2756D6F83_AdjustorThunk,
 	TextGenerationSettings_CompareVector2_mE4B7BA9402E9183E2F373151C64BEDF29D3F9530_AdjustorThunk,
@@ -148,70 +152,74 @@ static Il2CppMethodPointer s_methodPointers[47] =
 	Font_get_material_m799A85F3FF161469D8AF8CC0CCA6D550A6491565,
 	Font_get_dynamic_m2CA1DFFB862B41EAE100830F654880CD668F23AD,
 	Font_get_fontSize_m284493C6ABD87266D2DC3D32619D9972F6711261,
+	Font__ctor_m7E2532960BF01745ADB54BBCC43DBBE650A83E4C,
 	Font_InvokeTextureRebuilt_Internal_m35C57E19A7E53A2F2A94DF909E6903DFFEE7679B,
 	Font_HasCharacter_m91E1618BC3221EBB83518E5B85D5CA3996FAD10C,
 	Font_HasCharacter_mEC8A3BB085240EC6B44999C19588319DB644B2AC,
+	Font_Internal_CreateFont_m56BBBD1E61D1DDBD2D67BA3DEC0852E1526E2E5C,
 	FontTextureRebuildCallback__ctor_m58D67535ED1CC9895AB016CBB713A730A73480E0,
 	FontTextureRebuildCallback_Invoke_m7F5D9CAA51DC8C9779104ACF46F668654B35EA1F,
 	FontTextureRebuildCallback_BeginInvoke_m3F36739573BA8EE2C6C3BF90DC37E9D78AD7365F,
 	FontTextureRebuildCallback_EndInvoke_m3FDA95B07122814A8E63A8B7FFB5BCA7EC157B2C,
 };
-static const int32_t s_InvokerIndices[47] = 
+static const int32_t s_InvokerIndices[49] = 
 {
-	557,
-	595,
-	970,
-	1246,
-	1055,
-	1246,
-	1246,
-	1201,
-	994,
-	1246,
-	1065,
-	1065,
-	1065,
-	603,
-	603,
-	409,
-	580,
-	507,
-	507,
-	1212,
-	1212,
-	1212,
-	1226,
-	1201,
-	1201,
-	2130,
-	2106,
+	683,
+	735,
+	1266,
+	1668,
+	1383,
+	1668,
+	1668,
+	1617,
+	1296,
+	1668,
+	1397,
+	1397,
+	1397,
+	748,
+	748,
+	515,
+	717,
+	622,
+	622,
+	1632,
+	1632,
+	1632,
+	1648,
+	1617,
+	1617,
+	2694,
+	2669,
 	1,
 	2,
-	1065,
-	1065,
-	1065,
-	1030,
+	1397,
+	1397,
+	1397,
+	1354,
 	0,
-	2148,
-	2108,
-	2108,
-	1212,
-	1234,
-	1201,
-	2108,
-	936,
-	937,
-	703,
-	1246,
-	541,
-	1065,
+	2714,
+	2672,
+	2672,
+	1632,
+	1656,
+	1617,
+	1668,
+	2672,
+	1226,
+	1227,
+	2501,
+	889,
+	1668,
+	664,
+	1397,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_TextRenderingModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule = 
 {
 	"UnityEngine.TextRenderingModule.dll",
-	47,
+	49,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
