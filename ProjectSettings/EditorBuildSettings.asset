@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Pong 2020/Scenes/Game scene.unity
+    guid: b8ce6bd324a432c43a8238329791d0e4
+  - enabled: 1
+    path: Assets/Pong 2020/Scenes/Dance scene.unity
+    guid: 9ff0a938721889f4180dea513210687c
+  - enabled: 1
+    path: Assets/Pong 2020/Scenes/Player shop.unity
+    guid: 9cdeaed6c5387c64382850f8240e4fac
+  - enabled: 1
+    path: Assets/Pong 2020/Scenes/Bonus.unity
+    guid: 6d84362d68b7b274ea3d0b7b3e9e1090
+  - enabled: 1
+    path: Assets/Pong 2020/Scenes/Leaderboard.unity
+    guid: 37d98adc36be54337b95723538a162d3
+  m_configObjects: {}

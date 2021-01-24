@@ -1,0 +1,82 @@
+newmtl metal:_Titanium_
+Ka 0 0 0
+Kd 0.772549 0.776471 0.776471
+Ks 0.541176 0.541176 0.541176
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl Plastic:_Black
+Ka 0 0 0
+Kd 0.0470588 0.0470588 0.0470588
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl Plastic:_scrin
+Ka 0 0 0
+Kd 0.0470588 0.0470588 0.0470588
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+map_Kd ipad_scrin.jpg
+
+newmtl Plastic:_White_
+Ka 0 0 0
+Kd 0.901961 0.901961 0.901961
+Ks 1 1 1
+Ni 1
+Ns 1000
+Tf 1 1 1
+d 1
+
+newmtl BC_plastic
+Ka 0 0 0
+Kd 0.996078 0.996078 0.996078
+Ks 0.8 0.8 0.8
+Ni 1
+Ns 125
+Tf 1 1 1
+d 1
+
+newmtl BC_Velvet
+Ka 0 0 0
+Kd 1 0.501961 0
+Ks 0 0 0
+Ni 1
+Ns 649
+Tf 1 1 1
+d 1
+
+newmtl Default
+Ka 0 0 0
+Kd 0.886275 0.87451 0.839216
+Ks 0.15 0.15 0.15
+Ni 1
+Ns 550
+Tf 1 1 1
+d 1
+
+newmtl EC_fabric
+Ka 0 0 0
+Kd 0.870588 0.0862745 0.247059
+Ks 0.2 0.2 0.2
+Ni 1
+Ns 19
+Tf 1 1 1
+d 1
+
+newmtl EC_plastic
+Ka 0 0 0
+Kd 0.968627 0.960784 0.921263
+Ks 0.365 0.365 0.365
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+

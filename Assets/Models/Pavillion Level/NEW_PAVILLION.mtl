@@ -1,0 +1,900 @@
+newmtl OLD_STONE_WALL_2
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh3
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh3
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh4
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh4
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh5
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh5
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh6
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh6
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh7
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh7
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl FloorsRegular0299_Mesh8
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh8
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh9
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh9
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh10
+d 1
+Kd 0.588235 0.584314 0.580392
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl concreat_curve
+d 1
+Kd 0.635294 0.631373 0.627451
+map_Kd /Maps/concreat_curve.png
+
+newmtl FloorsRegular0299_Mesh11
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh11
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh12
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh12
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh13
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh13
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh14
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh14
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh15
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh15
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh16
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh16
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh17
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh17
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh18
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh18
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh19
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh19
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh20
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh20
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh21
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh21
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh22
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh22
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh23
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh23
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh24
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh24
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh25
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh25
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh26
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh26
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh27
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh27
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh28
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh28
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh29
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh29
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh30
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh30
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh31
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh31
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh32
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh32
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh33
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh33
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh34
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh34
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh35
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh35
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh36
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh36
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl DARK_MHAGNY
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh38
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh39
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh40
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh41
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh42
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh43
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh44
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh45
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh46
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh47
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh48
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh49
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh50
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh51
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh52
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl DARK_MHAGNY_Mesh53
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.462745 0.309804 0.207843
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/DARK_MHAGNY.jpg
+
+newmtl FloorsRegular0299_Mesh54
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh54
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+
+newmtl FloorsRegular0299_Mesh55
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.588235 0.584314 0.580392
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/FloorsRegular0299.png
+
+newmtl OLD_STONE_WALL_2_Mesh55
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0.509804 0.501961 0.482353
+Ks 0.329412 0.329412 0.329412
+Km 0
+map_Kd /Maps/OLD_STONE_WALL_2.png
+

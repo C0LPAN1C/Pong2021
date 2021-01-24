@@ -1,0 +1,24 @@
+Opponent Stats:
+
+Speed 		= 6.5
+Turn		= 6.0
+Force		= 12.0
+Up Force	= 8.5
+Move Range	= 5.0
+
+Player Stats:
+
+Speed 		= 8.0
+Turn		= 6.0
+Ball Range	= 4.0
+Force		= 12.0
+Up Force	= 8.5
+Move Range	= 8.0
+
+Ball Move	= 12.0
+
+Swipe		= 0.08f
+
+Drag 		= 40.0f
+
+Max Drag	= 1.7

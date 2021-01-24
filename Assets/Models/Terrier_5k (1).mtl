@@ -1,0 +1,18 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 06.04.2018 14:40:52
+
+newmtl Default1__ptex_
+	Ns 24.409521102905
+	Ni 1.500000000000
+	d 1.000000000000
+	Tr 0.000000000000
+	Tf 1.000000000000 1.000000000000 1.000000000000 
+	illum 2
+	Ka 0.000000000000 0.000000000000 0.000000000000
+	Kd 0.759999990463 0.620000004768 0.519999980927
+	Ks 0.000000000000 0.000000000000 0.000000000000
+	Ke 0.000000000000 0.000000000000 0.000000000000
+	map_Ka maps\Terrier_5K_Diffuse.tif
+	map_Kd maps\Terrier_5K_Diffuse.tif
+	map_bump maps\Terrier_5k_NormalsMap.tga
+	bump maps\Terrier_5k_NormalsMap.tga

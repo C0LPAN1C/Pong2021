@@ -1,0 +1,10 @@
+newmtl lambert6SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Rottweiler.jpg
+bump Rottweiler_bamp.jpg -bm 0.05
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 127.00
