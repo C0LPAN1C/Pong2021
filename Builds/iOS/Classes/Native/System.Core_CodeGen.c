@@ -359,6 +359,8 @@ const Il2CppCodeGenModule g_System_Core_CodeGenModule =
 	"System.Core.dll",
 	72,
 	s_methodPointers,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,

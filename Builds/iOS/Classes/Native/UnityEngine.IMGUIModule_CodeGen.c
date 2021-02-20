@@ -837,61 +837,61 @@ extern void ScrollViewState__ctor_m0D7C09E917B98DAE6CA669F180201B52F74A2C0E (voi
 // 0x0000019C System.Void UnityEngine.SliderState::.ctor()
 extern void SliderState__ctor_m52C1830A6B916BE4BD18799B3934E79665EE3EDE (void);
 // 0x0000019D System.Void UnityEngine.SliderHandler::.ctor(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean,System.Int32,UnityEngine.GUIStyle)
-extern void SliderHandler__ctor_mEDBEB4F32DE823ED83C1604F2439F480156A8A56_AdjustorThunk (void);
+extern void SliderHandler__ctor_mEDBEB4F32DE823ED83C1604F2439F480156A8A56 (void);
 // 0x0000019E System.Single UnityEngine.SliderHandler::Handle()
-extern void SliderHandler_Handle_mF86CB8812570095EA2D216E7AA0FFBBB623DE7F1_AdjustorThunk (void);
+extern void SliderHandler_Handle_mF86CB8812570095EA2D216E7AA0FFBBB623DE7F1 (void);
 // 0x0000019F System.Single UnityEngine.SliderHandler::OnMouseDown()
-extern void SliderHandler_OnMouseDown_m23E8544B289BA7AEA59F407A60531803DA529C33_AdjustorThunk (void);
+extern void SliderHandler_OnMouseDown_m23E8544B289BA7AEA59F407A60531803DA529C33 (void);
 // 0x000001A0 System.Single UnityEngine.SliderHandler::OnMouseDrag()
-extern void SliderHandler_OnMouseDrag_mF20837A5155A974918A2F9074E3A2BE29A29AE43_AdjustorThunk (void);
+extern void SliderHandler_OnMouseDrag_mF20837A5155A974918A2F9074E3A2BE29A29AE43 (void);
 // 0x000001A1 System.Single UnityEngine.SliderHandler::OnMouseUp()
-extern void SliderHandler_OnMouseUp_mD8C283E0262ADE1D5931E94AB58C783D9997498B_AdjustorThunk (void);
+extern void SliderHandler_OnMouseUp_mD8C283E0262ADE1D5931E94AB58C783D9997498B (void);
 // 0x000001A2 System.Single UnityEngine.SliderHandler::OnRepaint()
-extern void SliderHandler_OnRepaint_m4EA34AB4CD8C441436A59DE1F389E9E2BB7863E8_AdjustorThunk (void);
+extern void SliderHandler_OnRepaint_m4EA34AB4CD8C441436A59DE1F389E9E2BB7863E8 (void);
 // 0x000001A3 UnityEngine.EventType UnityEngine.SliderHandler::CurrentEventType()
-extern void SliderHandler_CurrentEventType_m9A5F50AD2DCDA644F0BDFD39A7D78A91E8A0CE03_AdjustorThunk (void);
+extern void SliderHandler_CurrentEventType_m9A5F50AD2DCDA644F0BDFD39A7D78A91E8A0CE03 (void);
 // 0x000001A4 System.Int32 UnityEngine.SliderHandler::CurrentScrollTroughSide()
-extern void SliderHandler_CurrentScrollTroughSide_m32D95131BA42F38C393B3948229E1B9443F4A6EC_AdjustorThunk (void);
+extern void SliderHandler_CurrentScrollTroughSide_m32D95131BA42F38C393B3948229E1B9443F4A6EC (void);
 // 0x000001A5 System.Boolean UnityEngine.SliderHandler::IsEmptySlider()
-extern void SliderHandler_IsEmptySlider_m8BBB2FFB1700D02971BCC9D82F1C380F18F400FF_AdjustorThunk (void);
+extern void SliderHandler_IsEmptySlider_m8BBB2FFB1700D02971BCC9D82F1C380F18F400FF (void);
 // 0x000001A6 System.Boolean UnityEngine.SliderHandler::SupportsPageMovements()
-extern void SliderHandler_SupportsPageMovements_mD2A4C576F119F358E894AC6192BDA729DC6EE3B6_AdjustorThunk (void);
+extern void SliderHandler_SupportsPageMovements_mD2A4C576F119F358E894AC6192BDA729DC6EE3B6 (void);
 // 0x000001A7 System.Single UnityEngine.SliderHandler::PageMovementValue()
-extern void SliderHandler_PageMovementValue_m50ADD2517DE35E7E2AA9A82B499CD6208AAA96A7_AdjustorThunk (void);
+extern void SliderHandler_PageMovementValue_m50ADD2517DE35E7E2AA9A82B499CD6208AAA96A7 (void);
 // 0x000001A8 System.Single UnityEngine.SliderHandler::PageUpMovementBound()
-extern void SliderHandler_PageUpMovementBound_m6DA2C83E39C8F8510FBFAF1397E110444005D658_AdjustorThunk (void);
+extern void SliderHandler_PageUpMovementBound_m6DA2C83E39C8F8510FBFAF1397E110444005D658 (void);
 // 0x000001A9 UnityEngine.Event UnityEngine.SliderHandler::CurrentEvent()
-extern void SliderHandler_CurrentEvent_mE45046335770DC72DB92E192CF48224B20B3027A_AdjustorThunk (void);
+extern void SliderHandler_CurrentEvent_mE45046335770DC72DB92E192CF48224B20B3027A (void);
 // 0x000001AA System.Single UnityEngine.SliderHandler::ValueForCurrentMousePosition()
-extern void SliderHandler_ValueForCurrentMousePosition_m02359E724DC0AE243B1B34F29AC762F531F0D2B8_AdjustorThunk (void);
+extern void SliderHandler_ValueForCurrentMousePosition_m02359E724DC0AE243B1B34F29AC762F531F0D2B8 (void);
 // 0x000001AB System.Single UnityEngine.SliderHandler::Clamp(System.Single)
-extern void SliderHandler_Clamp_mD8AB2275AB386BA1F9751B313CA05FA413619DF6_AdjustorThunk (void);
+extern void SliderHandler_Clamp_mD8AB2275AB386BA1F9751B313CA05FA413619DF6 (void);
 // 0x000001AC UnityEngine.Rect UnityEngine.SliderHandler::ThumbSelectionRect()
-extern void SliderHandler_ThumbSelectionRect_m31CADCE31EAC5F467A42EA1356B939AF32E3FB09_AdjustorThunk (void);
+extern void SliderHandler_ThumbSelectionRect_m31CADCE31EAC5F467A42EA1356B939AF32E3FB09 (void);
 // 0x000001AD System.Void UnityEngine.SliderHandler::StartDraggingWithValue(System.Single)
-extern void SliderHandler_StartDraggingWithValue_m50B0784BA048DCAFF90809644E38B3DBCCFF890A_AdjustorThunk (void);
+extern void SliderHandler_StartDraggingWithValue_m50B0784BA048DCAFF90809644E38B3DBCCFF890A (void);
 // 0x000001AE UnityEngine.SliderState UnityEngine.SliderHandler::SliderState()
-extern void SliderHandler_SliderState_m939A3BAD07388F8CA65E195655A3CA8967B5D127_AdjustorThunk (void);
+extern void SliderHandler_SliderState_m939A3BAD07388F8CA65E195655A3CA8967B5D127 (void);
 // 0x000001AF UnityEngine.Rect UnityEngine.SliderHandler::ThumbExtRect()
-extern void SliderHandler_ThumbExtRect_m4B760F15BC1C70617D6A012CE2B1FEF179B7A9CC_AdjustorThunk (void);
+extern void SliderHandler_ThumbExtRect_m4B760F15BC1C70617D6A012CE2B1FEF179B7A9CC (void);
 // 0x000001B0 UnityEngine.Rect UnityEngine.SliderHandler::ThumbRect()
-extern void SliderHandler_ThumbRect_m0E1CAE72256D7407B30389BF1493A7E7000D95A5_AdjustorThunk (void);
+extern void SliderHandler_ThumbRect_m0E1CAE72256D7407B30389BF1493A7E7000D95A5 (void);
 // 0x000001B1 UnityEngine.Rect UnityEngine.SliderHandler::VerticalThumbRect()
-extern void SliderHandler_VerticalThumbRect_m82DF3DABA3132CBD308A79ED264CDC0567D4BF6B_AdjustorThunk (void);
+extern void SliderHandler_VerticalThumbRect_m82DF3DABA3132CBD308A79ED264CDC0567D4BF6B (void);
 // 0x000001B2 UnityEngine.Rect UnityEngine.SliderHandler::HorizontalThumbRect()
-extern void SliderHandler_HorizontalThumbRect_m4732996A81968BEFC836C08AABDDCB5A5D243A6F_AdjustorThunk (void);
+extern void SliderHandler_HorizontalThumbRect_m4732996A81968BEFC836C08AABDDCB5A5D243A6F (void);
 // 0x000001B3 System.Single UnityEngine.SliderHandler::ClampedCurrentValue()
-extern void SliderHandler_ClampedCurrentValue_m2F440E6A40A04E7F55A51254599F9E90FEAD1B80_AdjustorThunk (void);
+extern void SliderHandler_ClampedCurrentValue_m2F440E6A40A04E7F55A51254599F9E90FEAD1B80 (void);
 // 0x000001B4 System.Single UnityEngine.SliderHandler::MousePosition()
-extern void SliderHandler_MousePosition_mEF3CA5152014850CEFC0781C2AFC840A11A9F8AE_AdjustorThunk (void);
+extern void SliderHandler_MousePosition_mEF3CA5152014850CEFC0781C2AFC840A11A9F8AE (void);
 // 0x000001B5 System.Single UnityEngine.SliderHandler::ValuesPerPixel()
-extern void SliderHandler_ValuesPerPixel_mC4D99A25825054733F415BE747A92B81F2D59F77_AdjustorThunk (void);
+extern void SliderHandler_ValuesPerPixel_mC4D99A25825054733F415BE747A92B81F2D59F77 (void);
 // 0x000001B6 System.Single UnityEngine.SliderHandler::ThumbSize()
-extern void SliderHandler_ThumbSize_m585B339F13F16DEA83D5CC6F4DA0A181822D2947_AdjustorThunk (void);
+extern void SliderHandler_ThumbSize_m585B339F13F16DEA83D5CC6F4DA0A181822D2947 (void);
 // 0x000001B7 System.Single UnityEngine.SliderHandler::MaxValue()
-extern void SliderHandler_MaxValue_mC8B1C5738087924C1522142553435D4BB2588756_AdjustorThunk (void);
+extern void SliderHandler_MaxValue_mC8B1C5738087924C1522142553435D4BB2588756 (void);
 // 0x000001B8 System.Single UnityEngine.SliderHandler::MinValue()
-extern void SliderHandler_MinValue_m073EA73B5C7E24798E10AF850E5FB8E7B59A579A_AdjustorThunk (void);
+extern void SliderHandler_MinValue_m073EA73B5C7E24798E10AF850E5FB8E7B59A579A (void);
 // 0x000001B9 System.String UnityEngine.TextEditor::get_text()
 extern void TextEditor_get_text_mE15B60D55F2AAF0D8635591E0DA94C9120911EA3 (void);
 // 0x000001BA System.Void UnityEngine.TextEditor::set_text(System.String)
@@ -1498,34 +1498,34 @@ static Il2CppMethodPointer s_methodPointers[536] =
 	GUIScrollGroup_SetVertical_m5EC430106417EEBBCD2258A917FC3CE2CD159725,
 	ScrollViewState__ctor_m0D7C09E917B98DAE6CA669F180201B52F74A2C0E,
 	SliderState__ctor_m52C1830A6B916BE4BD18799B3934E79665EE3EDE,
-	SliderHandler__ctor_mEDBEB4F32DE823ED83C1604F2439F480156A8A56_AdjustorThunk,
-	SliderHandler_Handle_mF86CB8812570095EA2D216E7AA0FFBBB623DE7F1_AdjustorThunk,
-	SliderHandler_OnMouseDown_m23E8544B289BA7AEA59F407A60531803DA529C33_AdjustorThunk,
-	SliderHandler_OnMouseDrag_mF20837A5155A974918A2F9074E3A2BE29A29AE43_AdjustorThunk,
-	SliderHandler_OnMouseUp_mD8C283E0262ADE1D5931E94AB58C783D9997498B_AdjustorThunk,
-	SliderHandler_OnRepaint_m4EA34AB4CD8C441436A59DE1F389E9E2BB7863E8_AdjustorThunk,
-	SliderHandler_CurrentEventType_m9A5F50AD2DCDA644F0BDFD39A7D78A91E8A0CE03_AdjustorThunk,
-	SliderHandler_CurrentScrollTroughSide_m32D95131BA42F38C393B3948229E1B9443F4A6EC_AdjustorThunk,
-	SliderHandler_IsEmptySlider_m8BBB2FFB1700D02971BCC9D82F1C380F18F400FF_AdjustorThunk,
-	SliderHandler_SupportsPageMovements_mD2A4C576F119F358E894AC6192BDA729DC6EE3B6_AdjustorThunk,
-	SliderHandler_PageMovementValue_m50ADD2517DE35E7E2AA9A82B499CD6208AAA96A7_AdjustorThunk,
-	SliderHandler_PageUpMovementBound_m6DA2C83E39C8F8510FBFAF1397E110444005D658_AdjustorThunk,
-	SliderHandler_CurrentEvent_mE45046335770DC72DB92E192CF48224B20B3027A_AdjustorThunk,
-	SliderHandler_ValueForCurrentMousePosition_m02359E724DC0AE243B1B34F29AC762F531F0D2B8_AdjustorThunk,
-	SliderHandler_Clamp_mD8AB2275AB386BA1F9751B313CA05FA413619DF6_AdjustorThunk,
-	SliderHandler_ThumbSelectionRect_m31CADCE31EAC5F467A42EA1356B939AF32E3FB09_AdjustorThunk,
-	SliderHandler_StartDraggingWithValue_m50B0784BA048DCAFF90809644E38B3DBCCFF890A_AdjustorThunk,
-	SliderHandler_SliderState_m939A3BAD07388F8CA65E195655A3CA8967B5D127_AdjustorThunk,
-	SliderHandler_ThumbExtRect_m4B760F15BC1C70617D6A012CE2B1FEF179B7A9CC_AdjustorThunk,
-	SliderHandler_ThumbRect_m0E1CAE72256D7407B30389BF1493A7E7000D95A5_AdjustorThunk,
-	SliderHandler_VerticalThumbRect_m82DF3DABA3132CBD308A79ED264CDC0567D4BF6B_AdjustorThunk,
-	SliderHandler_HorizontalThumbRect_m4732996A81968BEFC836C08AABDDCB5A5D243A6F_AdjustorThunk,
-	SliderHandler_ClampedCurrentValue_m2F440E6A40A04E7F55A51254599F9E90FEAD1B80_AdjustorThunk,
-	SliderHandler_MousePosition_mEF3CA5152014850CEFC0781C2AFC840A11A9F8AE_AdjustorThunk,
-	SliderHandler_ValuesPerPixel_mC4D99A25825054733F415BE747A92B81F2D59F77_AdjustorThunk,
-	SliderHandler_ThumbSize_m585B339F13F16DEA83D5CC6F4DA0A181822D2947_AdjustorThunk,
-	SliderHandler_MaxValue_mC8B1C5738087924C1522142553435D4BB2588756_AdjustorThunk,
-	SliderHandler_MinValue_m073EA73B5C7E24798E10AF850E5FB8E7B59A579A_AdjustorThunk,
+	SliderHandler__ctor_mEDBEB4F32DE823ED83C1604F2439F480156A8A56,
+	SliderHandler_Handle_mF86CB8812570095EA2D216E7AA0FFBBB623DE7F1,
+	SliderHandler_OnMouseDown_m23E8544B289BA7AEA59F407A60531803DA529C33,
+	SliderHandler_OnMouseDrag_mF20837A5155A974918A2F9074E3A2BE29A29AE43,
+	SliderHandler_OnMouseUp_mD8C283E0262ADE1D5931E94AB58C783D9997498B,
+	SliderHandler_OnRepaint_m4EA34AB4CD8C441436A59DE1F389E9E2BB7863E8,
+	SliderHandler_CurrentEventType_m9A5F50AD2DCDA644F0BDFD39A7D78A91E8A0CE03,
+	SliderHandler_CurrentScrollTroughSide_m32D95131BA42F38C393B3948229E1B9443F4A6EC,
+	SliderHandler_IsEmptySlider_m8BBB2FFB1700D02971BCC9D82F1C380F18F400FF,
+	SliderHandler_SupportsPageMovements_mD2A4C576F119F358E894AC6192BDA729DC6EE3B6,
+	SliderHandler_PageMovementValue_m50ADD2517DE35E7E2AA9A82B499CD6208AAA96A7,
+	SliderHandler_PageUpMovementBound_m6DA2C83E39C8F8510FBFAF1397E110444005D658,
+	SliderHandler_CurrentEvent_mE45046335770DC72DB92E192CF48224B20B3027A,
+	SliderHandler_ValueForCurrentMousePosition_m02359E724DC0AE243B1B34F29AC762F531F0D2B8,
+	SliderHandler_Clamp_mD8AB2275AB386BA1F9751B313CA05FA413619DF6,
+	SliderHandler_ThumbSelectionRect_m31CADCE31EAC5F467A42EA1356B939AF32E3FB09,
+	SliderHandler_StartDraggingWithValue_m50B0784BA048DCAFF90809644E38B3DBCCFF890A,
+	SliderHandler_SliderState_m939A3BAD07388F8CA65E195655A3CA8967B5D127,
+	SliderHandler_ThumbExtRect_m4B760F15BC1C70617D6A012CE2B1FEF179B7A9CC,
+	SliderHandler_ThumbRect_m0E1CAE72256D7407B30389BF1493A7E7000D95A5,
+	SliderHandler_VerticalThumbRect_m82DF3DABA3132CBD308A79ED264CDC0567D4BF6B,
+	SliderHandler_HorizontalThumbRect_m4732996A81968BEFC836C08AABDDCB5A5D243A6F,
+	SliderHandler_ClampedCurrentValue_m2F440E6A40A04E7F55A51254599F9E90FEAD1B80,
+	SliderHandler_MousePosition_mEF3CA5152014850CEFC0781C2AFC840A11A9F8AE,
+	SliderHandler_ValuesPerPixel_mC4D99A25825054733F415BE747A92B81F2D59F77,
+	SliderHandler_ThumbSize_m585B339F13F16DEA83D5CC6F4DA0A181822D2947,
+	SliderHandler_MaxValue_mC8B1C5738087924C1522142553435D4BB2588756,
+	SliderHandler_MinValue_m073EA73B5C7E24798E10AF850E5FB8E7B59A579A,
 	TextEditor_get_text_mE15B60D55F2AAF0D8635591E0DA94C9120911EA3,
 	TextEditor_set_text_mD9129625FFD2F23A4A1F40C2D8BB09F516C9356F,
 	TextEditor_get_position_m4B5263E81A4B8D76672C5A262126AABED1A2957A,
@@ -1623,6 +1623,65 @@ static Il2CppMethodPointer s_methodPointers[536] =
 	TextEditor_NextCodePointIndex_m8D148585BD59DADBE637B142A7854145FA018951,
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m47FC562C284FF74A4AD3C1070E7E8BB9CF5BF770,
 };
+extern void SliderHandler__ctor_mEDBEB4F32DE823ED83C1604F2439F480156A8A56_AdjustorThunk (void);
+extern void SliderHandler_Handle_mF86CB8812570095EA2D216E7AA0FFBBB623DE7F1_AdjustorThunk (void);
+extern void SliderHandler_OnMouseDown_m23E8544B289BA7AEA59F407A60531803DA529C33_AdjustorThunk (void);
+extern void SliderHandler_OnMouseDrag_mF20837A5155A974918A2F9074E3A2BE29A29AE43_AdjustorThunk (void);
+extern void SliderHandler_OnMouseUp_mD8C283E0262ADE1D5931E94AB58C783D9997498B_AdjustorThunk (void);
+extern void SliderHandler_OnRepaint_m4EA34AB4CD8C441436A59DE1F389E9E2BB7863E8_AdjustorThunk (void);
+extern void SliderHandler_CurrentEventType_m9A5F50AD2DCDA644F0BDFD39A7D78A91E8A0CE03_AdjustorThunk (void);
+extern void SliderHandler_CurrentScrollTroughSide_m32D95131BA42F38C393B3948229E1B9443F4A6EC_AdjustorThunk (void);
+extern void SliderHandler_IsEmptySlider_m8BBB2FFB1700D02971BCC9D82F1C380F18F400FF_AdjustorThunk (void);
+extern void SliderHandler_SupportsPageMovements_mD2A4C576F119F358E894AC6192BDA729DC6EE3B6_AdjustorThunk (void);
+extern void SliderHandler_PageMovementValue_m50ADD2517DE35E7E2AA9A82B499CD6208AAA96A7_AdjustorThunk (void);
+extern void SliderHandler_PageUpMovementBound_m6DA2C83E39C8F8510FBFAF1397E110444005D658_AdjustorThunk (void);
+extern void SliderHandler_CurrentEvent_mE45046335770DC72DB92E192CF48224B20B3027A_AdjustorThunk (void);
+extern void SliderHandler_ValueForCurrentMousePosition_m02359E724DC0AE243B1B34F29AC762F531F0D2B8_AdjustorThunk (void);
+extern void SliderHandler_Clamp_mD8AB2275AB386BA1F9751B313CA05FA413619DF6_AdjustorThunk (void);
+extern void SliderHandler_ThumbSelectionRect_m31CADCE31EAC5F467A42EA1356B939AF32E3FB09_AdjustorThunk (void);
+extern void SliderHandler_StartDraggingWithValue_m50B0784BA048DCAFF90809644E38B3DBCCFF890A_AdjustorThunk (void);
+extern void SliderHandler_SliderState_m939A3BAD07388F8CA65E195655A3CA8967B5D127_AdjustorThunk (void);
+extern void SliderHandler_ThumbExtRect_m4B760F15BC1C70617D6A012CE2B1FEF179B7A9CC_AdjustorThunk (void);
+extern void SliderHandler_ThumbRect_m0E1CAE72256D7407B30389BF1493A7E7000D95A5_AdjustorThunk (void);
+extern void SliderHandler_VerticalThumbRect_m82DF3DABA3132CBD308A79ED264CDC0567D4BF6B_AdjustorThunk (void);
+extern void SliderHandler_HorizontalThumbRect_m4732996A81968BEFC836C08AABDDCB5A5D243A6F_AdjustorThunk (void);
+extern void SliderHandler_ClampedCurrentValue_m2F440E6A40A04E7F55A51254599F9E90FEAD1B80_AdjustorThunk (void);
+extern void SliderHandler_MousePosition_mEF3CA5152014850CEFC0781C2AFC840A11A9F8AE_AdjustorThunk (void);
+extern void SliderHandler_ValuesPerPixel_mC4D99A25825054733F415BE747A92B81F2D59F77_AdjustorThunk (void);
+extern void SliderHandler_ThumbSize_m585B339F13F16DEA83D5CC6F4DA0A181822D2947_AdjustorThunk (void);
+extern void SliderHandler_MaxValue_mC8B1C5738087924C1522142553435D4BB2588756_AdjustorThunk (void);
+extern void SliderHandler_MinValue_m073EA73B5C7E24798E10AF850E5FB8E7B59A579A_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[28] = 
+{
+	{ 0x0600019D, SliderHandler__ctor_mEDBEB4F32DE823ED83C1604F2439F480156A8A56_AdjustorThunk },
+	{ 0x0600019E, SliderHandler_Handle_mF86CB8812570095EA2D216E7AA0FFBBB623DE7F1_AdjustorThunk },
+	{ 0x0600019F, SliderHandler_OnMouseDown_m23E8544B289BA7AEA59F407A60531803DA529C33_AdjustorThunk },
+	{ 0x060001A0, SliderHandler_OnMouseDrag_mF20837A5155A974918A2F9074E3A2BE29A29AE43_AdjustorThunk },
+	{ 0x060001A1, SliderHandler_OnMouseUp_mD8C283E0262ADE1D5931E94AB58C783D9997498B_AdjustorThunk },
+	{ 0x060001A2, SliderHandler_OnRepaint_m4EA34AB4CD8C441436A59DE1F389E9E2BB7863E8_AdjustorThunk },
+	{ 0x060001A3, SliderHandler_CurrentEventType_m9A5F50AD2DCDA644F0BDFD39A7D78A91E8A0CE03_AdjustorThunk },
+	{ 0x060001A4, SliderHandler_CurrentScrollTroughSide_m32D95131BA42F38C393B3948229E1B9443F4A6EC_AdjustorThunk },
+	{ 0x060001A5, SliderHandler_IsEmptySlider_m8BBB2FFB1700D02971BCC9D82F1C380F18F400FF_AdjustorThunk },
+	{ 0x060001A6, SliderHandler_SupportsPageMovements_mD2A4C576F119F358E894AC6192BDA729DC6EE3B6_AdjustorThunk },
+	{ 0x060001A7, SliderHandler_PageMovementValue_m50ADD2517DE35E7E2AA9A82B499CD6208AAA96A7_AdjustorThunk },
+	{ 0x060001A8, SliderHandler_PageUpMovementBound_m6DA2C83E39C8F8510FBFAF1397E110444005D658_AdjustorThunk },
+	{ 0x060001A9, SliderHandler_CurrentEvent_mE45046335770DC72DB92E192CF48224B20B3027A_AdjustorThunk },
+	{ 0x060001AA, SliderHandler_ValueForCurrentMousePosition_m02359E724DC0AE243B1B34F29AC762F531F0D2B8_AdjustorThunk },
+	{ 0x060001AB, SliderHandler_Clamp_mD8AB2275AB386BA1F9751B313CA05FA413619DF6_AdjustorThunk },
+	{ 0x060001AC, SliderHandler_ThumbSelectionRect_m31CADCE31EAC5F467A42EA1356B939AF32E3FB09_AdjustorThunk },
+	{ 0x060001AD, SliderHandler_StartDraggingWithValue_m50B0784BA048DCAFF90809644E38B3DBCCFF890A_AdjustorThunk },
+	{ 0x060001AE, SliderHandler_SliderState_m939A3BAD07388F8CA65E195655A3CA8967B5D127_AdjustorThunk },
+	{ 0x060001AF, SliderHandler_ThumbExtRect_m4B760F15BC1C70617D6A012CE2B1FEF179B7A9CC_AdjustorThunk },
+	{ 0x060001B0, SliderHandler_ThumbRect_m0E1CAE72256D7407B30389BF1493A7E7000D95A5_AdjustorThunk },
+	{ 0x060001B1, SliderHandler_VerticalThumbRect_m82DF3DABA3132CBD308A79ED264CDC0567D4BF6B_AdjustorThunk },
+	{ 0x060001B2, SliderHandler_HorizontalThumbRect_m4732996A81968BEFC836C08AABDDCB5A5D243A6F_AdjustorThunk },
+	{ 0x060001B3, SliderHandler_ClampedCurrentValue_m2F440E6A40A04E7F55A51254599F9E90FEAD1B80_AdjustorThunk },
+	{ 0x060001B4, SliderHandler_MousePosition_mEF3CA5152014850CEFC0781C2AFC840A11A9F8AE_AdjustorThunk },
+	{ 0x060001B5, SliderHandler_ValuesPerPixel_mC4D99A25825054733F415BE747A92B81F2D59F77_AdjustorThunk },
+	{ 0x060001B6, SliderHandler_ThumbSize_m585B339F13F16DEA83D5CC6F4DA0A181822D2947_AdjustorThunk },
+	{ 0x060001B7, SliderHandler_MaxValue_mC8B1C5738087924C1522142553435D4BB2588756_AdjustorThunk },
+	{ 0x060001B8, SliderHandler_MinValue_m073EA73B5C7E24798E10AF850E5FB8E7B59A579A_AdjustorThunk },
+};
 static const int32_t s_InvokerIndices[536] = 
 {
 	1617,
@@ -1686,7 +1745,7 @@ static const int32_t s_InvokerIndices[536] =
 	2506,
 	2279,
 	2430,
-	2214,
+	2215,
 	2051,
 	2052,
 	2367,
@@ -1701,11 +1760,11 @@ static const int32_t s_InvokerIndices[536] =
 	2051,
 	1698,
 	1795,
-	2199,
+	2200,
 	1795,
 	1697,
 	2279,
-	2095,
+	2096,
 	2714,
 	2699,
 	1718,
@@ -1717,17 +1776,17 @@ static const int32_t s_InvokerIndices[536] =
 	1706,
 	889,
 	1383,
-	434,
+	435,
 	1397,
 	2706,
-	2096,
+	2097,
 	2714,
 	2653,
-	2096,
+	2097,
 	2714,
 	2653,
 	2663,
-	2062,
+	2063,
 	2472,
 	1632,
 	1397,
@@ -1736,7 +1795,7 @@ static const int32_t s_InvokerIndices[536] =
 	1397,
 	1668,
 	1397,
-	568,
+	569,
 	1397,
 	2606,
 	2714,
@@ -1744,7 +1803,7 @@ static const int32_t s_InvokerIndices[536] =
 	2501,
 	2270,
 	2423,
-	2209,
+	2210,
 	2672,
 	2270,
 	2714,
@@ -1772,11 +1831,11 @@ static const int32_t s_InvokerIndices[536] =
 	2672,
 	2672,
 	2606,
-	2170,
+	2171,
 	2714,
 	2363,
-	2186,
-	2186,
+	2187,
+	2187,
 	2714,
 	2483,
 	2483,
@@ -1852,7 +1911,7 @@ static const int32_t s_InvokerIndices[536] =
 	1632,
 	889,
 	1668,
-	664,
+	665,
 	1397,
 	2359,
 	2714,
@@ -1891,15 +1950,15 @@ static const int32_t s_InvokerIndices[536] =
 	825,
 	2643,
 	122,
-	383,
-	381,
+	384,
+	382,
 	7,
-	518,
-	416,
+	519,
+	417,
 	278,
 	1310,
 	752,
-	747,
+	748,
 	1310,
 	2502,
 	2709,
@@ -1917,36 +1976,36 @@ static const int32_t s_InvokerIndices[536] =
 	1658,
 	191,
 	122,
-	585,
-	383,
+	586,
+	384,
 	190,
 	72,
-	382,
+	383,
 	38,
 	121,
 	189,
 	2699,
-	518,
-	416,
+	519,
+	417,
 	1310,
 	752,
-	747,
+	748,
 	1656,
-	550,
+	551,
 	1632,
 	2714,
 	1354,
 	1354,
 	1354,
 	94,
+	326,
 	325,
-	324,
 	6,
-	324,
-	404,
+	325,
+	405,
 	247,
 	880,
-	550,
+	551,
 	880,
 	2493,
 	2326,
@@ -1956,7 +2015,7 @@ static const int32_t s_InvokerIndices[536] =
 	2675,
 	2699,
 	2672,
-	2124,
+	2125,
 	2699,
 	2680,
 	2692,
@@ -1987,10 +2046,10 @@ static const int32_t s_InvokerIndices[536] =
 	2629,
 	2629,
 	2714,
-	2215,
 	2216,
+	2217,
 	2430,
-	2122,
+	2123,
 	2663,
 	1397,
 	1632,
@@ -2011,7 +2070,7 @@ static const int32_t s_InvokerIndices[536] =
 	1397,
 	1632,
 	2714,
-	568,
+	569,
 	1668,
 	1668,
 	1617,
@@ -2080,7 +2139,7 @@ static const int32_t s_InvokerIndices[536] =
 	1668,
 	1668,
 	1242,
-	715,
+	716,
 	1656,
 	1656,
 	1656,
@@ -2138,12 +2197,12 @@ static const int32_t s_InvokerIndices[536] =
 	1668,
 	1668,
 	1668,
-	614,
+	615,
 	1668,
 	1397,
 	1668,
 	1397,
-	698,
+	699,
 	1668,
 	1656,
 	1668,
@@ -2169,6 +2228,8 @@ const Il2CppCodeGenModule g_UnityEngine_IMGUIModule_CodeGenModule =
 	"UnityEngine.IMGUIModule.dll",
 	536,
 	s_methodPointers,
+	28,
+	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
 	NULL,

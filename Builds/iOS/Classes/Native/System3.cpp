@@ -2385,7 +2385,7 @@ public:
 };
 
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D128
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=128
 struct  __StaticArrayInitTypeSizeU3D128_t2C1166FE3CC05212DD55648859D997CA8842A83B 
 {
 public:
@@ -2404,7 +2404,7 @@ public:
 };
 
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D32
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=32
 struct  __StaticArrayInitTypeSizeU3D32_tD37BEF7101998702862991181C721026AB96A59F 
 {
 public:
@@ -2423,7 +2423,7 @@ public:
 };
 
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D44
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=44
 struct  __StaticArrayInitTypeSizeU3D44_t2F10E0A6A5CD8F1EC7DB466A80FA89066B4E0B24 
 {
 public:
@@ -2609,13 +2609,13 @@ struct U3CPrivateImplementationDetailsU3E_t1267FAF6E08D720F26ABF676554E6948A7F6A
 public:
 	// System.Int64 <PrivateImplementationDetails>::03F4297FCC30D0FD5E420E5D26E7FA711167C7EF
 	int64_t ___03F4297FCC30D0FD5E420E5D26E7FA711167C7EF_0;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D32 <PrivateImplementationDetails>::59F5BD34B6C013DEACC784F69C67E95150033A84
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=32 <PrivateImplementationDetails>::59F5BD34B6C013DEACC784F69C67E95150033A84
 	__StaticArrayInitTypeSizeU3D32_tD37BEF7101998702862991181C721026AB96A59F  ___59F5BD34B6C013DEACC784F69C67E95150033A84_1;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D44 <PrivateImplementationDetails>::8E0EF3D67A3EB1863224EE3CACB424BC2F8CFBA3
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=44 <PrivateImplementationDetails>::8E0EF3D67A3EB1863224EE3CACB424BC2F8CFBA3
 	__StaticArrayInitTypeSizeU3D44_t2F10E0A6A5CD8F1EC7DB466A80FA89066B4E0B24  ___8E0EF3D67A3EB1863224EE3CACB424BC2F8CFBA3_2;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D32 <PrivateImplementationDetails>::C02C28AFEBE998F767E4AF43E3BE8F5E9FA11536
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=32 <PrivateImplementationDetails>::C02C28AFEBE998F767E4AF43E3BE8F5E9FA11536
 	__StaticArrayInitTypeSizeU3D32_tD37BEF7101998702862991181C721026AB96A59F  ___C02C28AFEBE998F767E4AF43E3BE8F5E9FA11536_3;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D128 <PrivateImplementationDetails>::CCEEADA43268372341F81AE0C9208C6856441C04
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=128 <PrivateImplementationDetails>::CCEEADA43268372341F81AE0C9208C6856441C04
 	__StaticArrayInitTypeSizeU3D128_t2C1166FE3CC05212DD55648859D997CA8842A83B  ___CCEEADA43268372341F81AE0C9208C6856441C04_4;
 	// System.Int64 <PrivateImplementationDetails>::E5BC1BAFADE1862DD6E0B9FB632BFAA6C3873A78
 	int64_t ___E5BC1BAFADE1862DD6E0B9FB632BFAA6C3873A78_5;
@@ -7238,12 +7238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9
 	CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* V_15 = NULL;
 	int32_t V_16 = 0;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	int32_t G_B3_0 = 0;
 	{
 		V_0 = (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)NULL;
@@ -9880,12 +9875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A
 	bool V_2 = false;
 	UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A * V_3 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		V_0 = (UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A *)NULL;
 		IL2CPP_RUNTIME_CLASS_INIT(UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A_il2cpp_TypeInfo_var);
@@ -10458,12 +10448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Win32Exception_InitializeErrorMessages_m
 	Dictionary_2_t0ACB62D0885C7AB376463C70665400A39808C5FB * V_0 = NULL;
 	bool V_1 = false;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Win32Exception_t4B7A329153AA0E88CA08533EFB6DB2F2A8E90950_il2cpp_TypeInfo_var);
 		bool L_0 = ((Win32Exception_t4B7A329153AA0E88CA08533EFB6DB2F2A8E90950_StaticFields*)il2cpp_codegen_static_fields_for(Win32Exception_t4B7A329153AA0E88CA08533EFB6DB2F2A8E90950_il2cpp_TypeInfo_var))->get_s_ErrorMessagesInitialized_18();
@@ -11114,13 +11099,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t X509BasicConstraintsExtension_Decode_
 	int32_t V_1 = 0;
 	ASN1_tCB86B6A02250200ED166EA857DC3D1C422BD94D8 * V_2 = NULL;
 	int32_t V_3 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_0 = ___extension0;
 		if (!L_0)
@@ -11287,15 +11267,18 @@ IL_0087:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0089;
+		}
 		throw e;
 	}
 
 CATCH_0089:
 	{ // begin catch(System.Object)
 		V_3 = 1;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0090;
 	} // end catch (depth: 1)
 
@@ -11737,13 +11720,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t X509EnhancedKeyUsageExtension_Decode_
 	ASN1_tCB86B6A02250200ED166EA857DC3D1C422BD94D8 * V_0 = NULL;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_0 = ___extension0;
 		if (!L_0)
@@ -11870,15 +11848,18 @@ IL_0075:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0077;
+		}
 		throw e;
 	}
 
 CATCH_0077:
 	{ // begin catch(System.Object)
 		V_2 = 1;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_007e;
 	} // end catch (depth: 1)
 
@@ -12530,13 +12511,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t X509KeyUsageExtension_Decode_m8D22367
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_0 = ___extension0;
 		if (!L_0)
@@ -12657,15 +12633,18 @@ IL_004b:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_005a;
+		}
 		throw e;
 	}
 
 CATCH_005a:
 	{ // begin catch(System.Object)
 		V_3 = 1;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0061;
 	} // end catch (depth: 1)
 
@@ -13986,13 +13965,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t X509SubjectKeyIdentifierExtension_Dec
 	}
 	ASN1_tCB86B6A02250200ED166EA857DC3D1C422BD94D8 * V_0 = NULL;
 	int32_t V_1 = 0;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_0 = ___extension0;
 		if (!L_0)
@@ -14077,15 +14051,18 @@ IL_002d:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0042;
+		}
 		throw e;
 	}
 
 CATCH_0042:
 	{ // begin catch(System.Object)
 		V_1 = 1;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0049;
 	} // end catch (depth: 1)
 
@@ -14780,12 +14757,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_0_mC396B5BE2E
 	SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * V_0 = NULL;
 	SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		RuntimeObject* L_0 = ___ares0;
 		NullCheck(((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var)));
@@ -14832,17 +14805,22 @@ IL_002c:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0040;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_004f;
+			}
 			throw e;
 		}
 
 CATCH_0040:
 		{ // begin catch(System.Net.Sockets.SocketException)
-			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)__exception_local);
+			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *));
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_11 = V_0;
 			SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * L_12 = V_1;
 			NullCheck(L_12);
@@ -14850,6 +14828,7 @@ CATCH_0040:
 			L_13 = SocketException_get_SocketErrorCode_m05A48632F6CC75FBD904E8E1AC56FC6B2577A131(L_12, /*hidden argument*/NULL);
 			NullCheck(L_11);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_11, L_13, /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x99, FINALLY_005d);
 		} // end catch (depth: 2)
 
@@ -14858,6 +14837,7 @@ CATCH_004f:
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_14 = V_0;
 			NullCheck(L_14);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_14, ((int32_t)995), /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x99, FINALLY_005d);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)
@@ -14938,13 +14918,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_1_m7141ABFB7A
 	SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * V_0 = NULL;
 	Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * V_1 = NULL;
 	Exception_t * V_2 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -14997,19 +14972,22 @@ IL_0032:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0034;
+		}
 		throw e;
 	}
 
 CATCH_0034:
 	{ // begin catch(System.Exception)
-		V_2 = ((Exception_t *)__exception_local);
+		V_2 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_11 = V_0;
 		Exception_t * L_12 = V_2;
 		NullCheck(L_11);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_11, L_12, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0045;
 	} // end catch (depth: 1)
 
@@ -15042,13 +15020,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_2_m110EFFDCB2
 	Exception_t * V_3 = NULL;
 	int32_t V_4 = 0;
 	Exception_t * V_5 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 5);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 5> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -15101,19 +15074,22 @@ IL_0032:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0034;
+		}
 		throw e;
 	}
 
 CATCH_0034:
 	{ // begin catch(System.Exception)
-		V_3 = ((Exception_t *)__exception_local);
+		V_3 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_11 = V_0;
 		Exception_t * L_12 = V_3;
 		NullCheck(L_11);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_11, L_12, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0093;
 	} // end catch (depth: 1)
 
@@ -15175,19 +15151,22 @@ IL_007d:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_007f;
+		}
 		throw e;
 	}
 
 CATCH_007f:
 	{ // begin catch(System.Exception)
-		V_5 = ((Exception_t *)__exception_local);
+		V_5 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_29 = V_0;
 		Exception_t * L_30 = V_5;
 		NullCheck(L_29);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_29, L_30, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0093;
 	} // end catch (depth: 1)
 
@@ -15218,12 +15197,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_3_m53FD854140
 	SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * V_0 = NULL;
 	SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		RuntimeObject* L_0 = ___ares0;
 		NullCheck(((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var)));
@@ -15266,17 +15241,22 @@ IL_002c:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_003a;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0049;
+			}
 			throw e;
 		}
 
 CATCH_003a:
 		{ // begin catch(System.Net.Sockets.SocketException)
-			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)__exception_local);
+			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *));
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_9 = V_0;
 			SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * L_10 = V_1;
 			NullCheck(L_10);
@@ -15284,6 +15264,7 @@ CATCH_003a:
 			L_11 = SocketException_get_SocketErrorCode_m05A48632F6CC75FBD904E8E1AC56FC6B2577A131(L_10, /*hidden argument*/NULL);
 			NullCheck(L_9);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_9, L_11, /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x5E, FINALLY_0057);
 		} // end catch (depth: 2)
 
@@ -15292,6 +15273,7 @@ CATCH_0049:
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_12 = V_0;
 			NullCheck(L_12);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_12, ((int32_t)995), /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x5E, FINALLY_0057);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)
@@ -15334,13 +15316,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_4_mF00A474148
 	SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * V_0 = NULL;
 	int32_t V_1 = 0;
 	Exception_t * V_2 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 5);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 5> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -15480,15 +15457,17 @@ IL_00c3:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_00cb;
+		}
 		throw e;
 	}
 
 CATCH_00cb:
 	{ // begin catch(System.Exception)
-		V_2 = ((Exception_t *)__exception_local);
+		V_2 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_36 = V_0;
 		NullCheck(L_36);
 		Socket_tD9721140F91BE95BA05B87DD26A855B215D84D09 * L_37 = L_36->get_socket_5();
@@ -15498,6 +15477,7 @@ CATCH_00cb:
 		Exception_t * L_39 = V_2;
 		NullCheck(L_38);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_38, L_39, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_00e1;
 	} // end catch (depth: 1)
 
@@ -15519,12 +15499,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_5_mC153E4B02F
 	SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * V_0 = NULL;
 	SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		RuntimeObject* L_0 = ___ares0;
 		NullCheck(((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var)));
@@ -15567,17 +15543,22 @@ IL_002c:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_003a;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0049;
+			}
 			throw e;
 		}
 
 CATCH_003a:
 		{ // begin catch(System.Net.Sockets.SocketException)
-			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)__exception_local);
+			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *));
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_9 = V_0;
 			SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * L_10 = V_1;
 			NullCheck(L_10);
@@ -15585,6 +15566,7 @@ CATCH_003a:
 			L_11 = SocketException_get_SocketErrorCode_m05A48632F6CC75FBD904E8E1AC56FC6B2577A131(L_10, /*hidden argument*/NULL);
 			NullCheck(L_9);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_9, L_11, /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x5E, FINALLY_0057);
 		} // end catch (depth: 2)
 
@@ -15593,6 +15575,7 @@ CATCH_0049:
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_12 = V_0;
 			NullCheck(L_12);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_12, ((int32_t)995), /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x5E, FINALLY_0057);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)
@@ -15631,13 +15614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_6_m87420A4E7F
 	}
 	SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * V_0 = NULL;
 	Exception_t * V_1 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -15658,19 +15636,22 @@ IL_0007:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_001a;
+		}
 		throw e;
 	}
 
 CATCH_001a:
 	{ // begin catch(System.Exception)
-		V_1 = ((Exception_t *)__exception_local);
+		V_1 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_5 = V_0;
 		Exception_t * L_6 = V_1;
 		NullCheck(L_5);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_5, L_6, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_002a;
 	} // end catch (depth: 1)
 
@@ -15699,12 +15680,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_7_mF1815DC25A
 	SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * V_0 = NULL;
 	SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		RuntimeObject* L_0 = ___ares0;
 		NullCheck(((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var)));
@@ -15751,17 +15728,22 @@ IL_002c:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0040;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_004f;
+			}
 			throw e;
 		}
 
 CATCH_0040:
 		{ // begin catch(System.Net.Sockets.SocketException)
-			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)__exception_local);
+			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *));
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_11 = V_0;
 			SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * L_12 = V_1;
 			NullCheck(L_12);
@@ -15769,6 +15751,7 @@ CATCH_0040:
 			L_13 = SocketException_get_SocketErrorCode_m05A48632F6CC75FBD904E8E1AC56FC6B2577A131(L_12, /*hidden argument*/NULL);
 			NullCheck(L_11);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_11, L_13, /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x64, FINALLY_005d);
 		} // end catch (depth: 2)
 
@@ -15777,6 +15760,7 @@ CATCH_004f:
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_14 = V_0;
 			NullCheck(L_14);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_14, ((int32_t)995), /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x64, FINALLY_005d);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)
@@ -15820,12 +15804,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_8_m84E0BF8076
 	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* V_3 = NULL;
 	Exception_t * V_4 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -15928,19 +15908,22 @@ IL_0062:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0064;
+		}
 		throw e;
 	}
 
 CATCH_0064:
 	{ // begin catch(System.Exception)
-		V_4 = ((Exception_t *)__exception_local);
+		V_4 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_22 = V_0;
 		Exception_t * L_23 = V_4;
 		NullCheck(L_22);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_22, L_23, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0077;
 	} // end catch (depth: 1)
 
@@ -15969,13 +15952,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_9_m80BDF0261B
 	SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * V_0 = NULL;
 	int32_t V_1 = 0;
 	Exception_t * V_2 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -16002,19 +15980,22 @@ IL_0009:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0023;
+		}
 		throw e;
 	}
 
 CATCH_0023:
 	{ // begin catch(System.Exception)
-		V_2 = ((Exception_t *)__exception_local);
+		V_2 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_8 = V_0;
 		Exception_t * L_9 = V_2;
 		NullCheck(L_8);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_8, L_9, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0034;
 	} // end catch (depth: 1)
 
@@ -16044,12 +16025,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_10_mA283D3257
 	SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * V_0 = NULL;
 	SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		RuntimeObject* L_0 = ___ares0;
 		NullCheck(((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var)));
@@ -16099,17 +16076,22 @@ IL_002c:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0046;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0055;
+			}
 			throw e;
 		}
 
 CATCH_0046:
 		{ // begin catch(System.Net.Sockets.SocketException)
-			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)__exception_local);
+			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *));
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_13 = V_0;
 			SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * L_14 = V_1;
 			NullCheck(L_14);
@@ -16117,6 +16099,7 @@ CATCH_0046:
 			L_15 = SocketException_get_SocketErrorCode_m05A48632F6CC75FBD904E8E1AC56FC6B2577A131(L_14, /*hidden argument*/NULL);
 			NullCheck(L_13);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_13, L_15, /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x6A, FINALLY_0063);
 		} // end catch (depth: 2)
 
@@ -16125,6 +16108,7 @@ CATCH_0055:
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_16 = V_0;
 			NullCheck(L_16);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_16, ((int32_t)995), /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x6A, FINALLY_0063);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)
@@ -16166,13 +16150,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_11_m800E1188E
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	Exception_t * V_3 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -16230,19 +16209,22 @@ IL_0046:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0048;
+		}
 		throw e;
 	}
 
 CATCH_0048:
 	{ // begin catch(System.Exception)
-		V_3 = ((Exception_t *)__exception_local);
+		V_3 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_18 = V_0;
 		Exception_t * L_19 = V_3;
 		NullCheck(L_18);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_18, L_19, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0059;
 	} // end catch (depth: 1)
 
@@ -16272,12 +16254,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_12_mC3F90036D
 	SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * V_0 = NULL;
 	SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		RuntimeObject* L_0 = ___ares0;
 		NullCheck(((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var)));
@@ -16324,17 +16302,22 @@ IL_002c:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0040;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_004f;
+			}
 			throw e;
 		}
 
 CATCH_0040:
 		{ // begin catch(System.Net.Sockets.SocketException)
-			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)__exception_local);
+			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *));
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_11 = V_0;
 			SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * L_12 = V_1;
 			NullCheck(L_12);
@@ -16342,6 +16325,7 @@ CATCH_0040:
 			L_13 = SocketException_get_SocketErrorCode_m05A48632F6CC75FBD904E8E1AC56FC6B2577A131(L_12, /*hidden argument*/NULL);
 			NullCheck(L_11);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_11, L_13, /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x64, FINALLY_005d);
 		} // end catch (depth: 2)
 
@@ -16350,6 +16334,7 @@ CATCH_004f:
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_14 = V_0;
 			NullCheck(L_14);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_14, ((int32_t)995), /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x64, FINALLY_005d);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)
@@ -16389,13 +16374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_13_m2FD5CE753
 	SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * V_0 = NULL;
 	int32_t V_1 = 0;
 	Exception_t * V_2 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		IOAsyncResult_t099E328DEE4054063493B8A96C1FE9AFB0EDAAF9 * L_0 = ___ares0;
 		V_0 = ((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var));
@@ -16422,19 +16402,22 @@ IL_0009:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0023;
+		}
 		throw e;
 	}
 
 CATCH_0023:
 	{ // begin catch(System.Exception)
-		V_2 = ((Exception_t *)__exception_local);
+		V_2 = ((Exception_t *)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t *));
 		SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 * L_8 = V_0;
 		Exception_t * L_9 = V_2;
 		NullCheck(L_8);
 		SocketAsyncResult_Complete_mF68A29EEF8843248D56B583C4CCD9C1549F99DAA(L_8, L_9, /*hidden argument*/NULL);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0034;
 	} // end catch (depth: 1)
 
@@ -16464,12 +16447,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_cctorU3Eb__310_14_m53E1DB314
 	SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * V_0 = NULL;
 	SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 	{
 		RuntimeObject* L_0 = ___ares0;
 		NullCheck(((SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4 *)CastclassSealed((RuntimeObject*)L_0, SocketAsyncResult_t42111E1C73DAF0D017E77B414BE79A2A837E56B4_il2cpp_TypeInfo_var)));
@@ -16516,17 +16495,22 @@ IL_002c:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0040;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_004f;
+			}
 			throw e;
 		}
 
 CATCH_0040:
 		{ // begin catch(System.Net.Sockets.SocketException)
-			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)__exception_local);
+			V_1 = ((SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 *));
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_11 = V_0;
 			SocketException_tB04D4347A4A41DC1A8583BBAE5A7C990F78C1E88 * L_12 = V_1;
 			NullCheck(L_12);
@@ -16534,6 +16518,7 @@ CATCH_0040:
 			L_13 = SocketException_get_SocketErrorCode_m05A48632F6CC75FBD904E8E1AC56FC6B2577A131(L_12, /*hidden argument*/NULL);
 			NullCheck(L_11);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_11, L_13, /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x64, FINALLY_005d);
 		} // end catch (depth: 2)
 
@@ -16542,6 +16527,7 @@ CATCH_004f:
 			SocketAsyncEventArgs_t6A1533E6F40045C89AB7F19555158F25D47BA8D8 * L_14 = V_0;
 			NullCheck(L_14);
 			SocketAsyncEventArgs_set_SocketError_mE909DB5DBC90065720B35ACB8B382DA175976533_inline(L_14, ((int32_t)995), /*hidden argument*/NULL);
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			IL2CPP_LEAVE(0x64, FINALLY_005d);
 		} // end catch (depth: 2)
 	} // end try (depth: 1)

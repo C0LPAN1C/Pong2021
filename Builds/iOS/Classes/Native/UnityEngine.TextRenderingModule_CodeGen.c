@@ -13,11 +13,11 @@
 
 
 // 0x00000001 System.Boolean UnityEngine.TextGenerationSettings::CompareColors(UnityEngine.Color,UnityEngine.Color)
-extern void TextGenerationSettings_CompareColors_m2D96C913B3B3004B54E2DF50B1D080E2756D6F83_AdjustorThunk (void);
+extern void TextGenerationSettings_CompareColors_m2D96C913B3B3004B54E2DF50B1D080E2756D6F83 (void);
 // 0x00000002 System.Boolean UnityEngine.TextGenerationSettings::CompareVector2(UnityEngine.Vector2,UnityEngine.Vector2)
-extern void TextGenerationSettings_CompareVector2_mE4B7BA9402E9183E2F373151C64BEDF29D3F9530_AdjustorThunk (void);
+extern void TextGenerationSettings_CompareVector2_mE4B7BA9402E9183E2F373151C64BEDF29D3F9530 (void);
 // 0x00000003 System.Boolean UnityEngine.TextGenerationSettings::Equals(UnityEngine.TextGenerationSettings)
-extern void TextGenerationSettings_Equals_m39EB4E712D3C4A3DEE0A3A09EB2CD80EED5B6E70_AdjustorThunk (void);
+extern void TextGenerationSettings_Equals_m39EB4E712D3C4A3DEE0A3A09EB2CD80EED5B6E70 (void);
 // 0x00000004 System.Void UnityEngine.TextGenerator::.ctor()
 extern void TextGenerator__ctor_m2018893FBFC055D3BBB11F0BEF120799E670E90D (void);
 // 0x00000005 System.Void UnityEngine.TextGenerator::.ctor(System.Int32)
@@ -112,9 +112,9 @@ extern void FontTextureRebuildCallback_BeginInvoke_m3F36739573BA8EE2C6C3BF90DC37
 extern void FontTextureRebuildCallback_EndInvoke_m3FDA95B07122814A8E63A8B7FFB5BCA7EC157B2C (void);
 static Il2CppMethodPointer s_methodPointers[49] = 
 {
-	TextGenerationSettings_CompareColors_m2D96C913B3B3004B54E2DF50B1D080E2756D6F83_AdjustorThunk,
-	TextGenerationSettings_CompareVector2_mE4B7BA9402E9183E2F373151C64BEDF29D3F9530_AdjustorThunk,
-	TextGenerationSettings_Equals_m39EB4E712D3C4A3DEE0A3A09EB2CD80EED5B6E70_AdjustorThunk,
+	TextGenerationSettings_CompareColors_m2D96C913B3B3004B54E2DF50B1D080E2756D6F83,
+	TextGenerationSettings_CompareVector2_mE4B7BA9402E9183E2F373151C64BEDF29D3F9530,
+	TextGenerationSettings_Equals_m39EB4E712D3C4A3DEE0A3A09EB2CD80EED5B6E70,
 	TextGenerator__ctor_m2018893FBFC055D3BBB11F0BEF120799E670E90D,
 	TextGenerator__ctor_m1476375B22A72960883563CFB9590528F2439EE0,
 	TextGenerator_Finalize_m75F6D3C34EDF6AD36EFAC32F70C24361605E2D0A,
@@ -162,10 +162,19 @@ static Il2CppMethodPointer s_methodPointers[49] =
 	FontTextureRebuildCallback_BeginInvoke_m3F36739573BA8EE2C6C3BF90DC37E9D78AD7365F,
 	FontTextureRebuildCallback_EndInvoke_m3FDA95B07122814A8E63A8B7FFB5BCA7EC157B2C,
 };
+extern void TextGenerationSettings_CompareColors_m2D96C913B3B3004B54E2DF50B1D080E2756D6F83_AdjustorThunk (void);
+extern void TextGenerationSettings_CompareVector2_mE4B7BA9402E9183E2F373151C64BEDF29D3F9530_AdjustorThunk (void);
+extern void TextGenerationSettings_Equals_m39EB4E712D3C4A3DEE0A3A09EB2CD80EED5B6E70_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] = 
+{
+	{ 0x06000001, TextGenerationSettings_CompareColors_m2D96C913B3B3004B54E2DF50B1D080E2756D6F83_AdjustorThunk },
+	{ 0x06000002, TextGenerationSettings_CompareVector2_mE4B7BA9402E9183E2F373151C64BEDF29D3F9530_AdjustorThunk },
+	{ 0x06000003, TextGenerationSettings_Equals_m39EB4E712D3C4A3DEE0A3A09EB2CD80EED5B6E70_AdjustorThunk },
+};
 static const int32_t s_InvokerIndices[49] = 
 {
-	683,
-	735,
+	684,
+	736,
 	1266,
 	1668,
 	1383,
@@ -177,12 +186,12 @@ static const int32_t s_InvokerIndices[49] =
 	1397,
 	1397,
 	1397,
-	748,
-	748,
+	749,
+	749,
 	515,
-	717,
-	622,
-	622,
+	718,
+	623,
+	623,
 	1632,
 	1632,
 	1632,
@@ -211,7 +220,7 @@ static const int32_t s_InvokerIndices[49] =
 	2501,
 	889,
 	1668,
-	664,
+	665,
 	1397,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_TextRenderingModule_AttributeGenerators[];
@@ -221,6 +230,8 @@ const Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule =
 	"UnityEngine.TextRenderingModule.dll",
 	49,
 	s_methodPointers,
+	3,
+	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
 	NULL,

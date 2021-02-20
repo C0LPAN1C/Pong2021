@@ -19,6 +19,8 @@ const Il2CppCodeGenModule g_UnityEngine_TilemapModule_CodeGenModule =
 	"UnityEngine.TilemapModule.dll",
 	0,
 	NULL,
+	0,
+	NULL,
 	NULL,
 	0,
 	NULL,

@@ -16759,21 +16759,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerEventData__ctor_m3A877590C20995B4
 		PointerEventData_set_eligibleForClick_m5CFAF671C2B33AF8E9153FA4826D93B9308C4C07_inline(__this, (bool)0, /*hidden argument*/NULL);
 		// pointerId = -1;
 		PointerEventData_set_pointerId_m7CD30C18A42AD6A99B435816B58F6CFDF42777D4_inline(__this, (-1), /*hidden argument*/NULL);
-		// position = Vector2.zero; 
+		// position = Vector2.zero; // Current position of the mouse or touch event
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_2;
 		L_2 = Vector2_get_zero_m621041B9DF5FAE86C1EF4CB28C224FEA089CB828(/*hidden argument*/NULL);
 		PointerEventData_set_position_m65960EBCA54317C91CEFFC4893466F87FB168BBF_inline(__this, L_2, /*hidden argument*/NULL);
-		// delta = Vector2.zero; 
+		// delta = Vector2.zero; // Delta since last update
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_3;
 		L_3 = Vector2_get_zero_m621041B9DF5FAE86C1EF4CB28C224FEA089CB828(/*hidden argument*/NULL);
 		PointerEventData_set_delta_m30E0BE702A57A13FEA52CA55D4B29DDE66931261_inline(__this, L_3, /*hidden argument*/NULL);
-		// pressPosition = Vector2.zero; 
+		// pressPosition = Vector2.zero; // Delta since the event started being tracked
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_4;
 		L_4 = Vector2_get_zero_m621041B9DF5FAE86C1EF4CB28C224FEA089CB828(/*hidden argument*/NULL);
 		PointerEventData_set_pressPosition_mE644EE1603DFF2087224FF6364EA0204D04D7939_inline(__this, L_4, /*hidden argument*/NULL);
-		// clickTime = 0.0f; 
+		// clickTime = 0.0f; // The last time a click event was sent out (used for double-clicks)
 		PointerEventData_set_clickTime_m215E254F8585FFC518E3161FAF9137388F64AC58_inline(__this, (0.0f), /*hidden argument*/NULL);
-		// clickCount = 0; 
+		// clickCount = 0; // Number of clicks in a row. 2 for a double-click for example.
 		PointerEventData_set_clickCount_m2EAAB7F43CE26BF505B7FCF7D509C988DCFD7F28_inline(__this, 0, /*hidden argument*/NULL);
 		// scrollDelta = Vector2.zero;
 		Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  L_5;
@@ -18224,12 +18224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerInputModule_ClearSelection_m98255
 	memset((&V_1), 0, sizeof(V_1));
 	PointerEventData_tC6C1BEE9D4C8755A31DA7FC0C9A1F28A36456954 * V_2 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// var baseEventData = GetBaseEventData();
 		BaseEventData_t722C48843CF21B50E06CC0E2E679415E38A7444E * L_0;
@@ -18337,12 +18332,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PointerInputModule_ToString_m72DF55
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	Type_t * G_B2_0 = NULL;
 	String_t* G_B2_1 = NULL;
 	Type_t * G_B1_0 = NULL;
@@ -20162,12 +20152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectMask2D_PerformClipping_m2D6A62F7600B
 	memset((&V_4), 0, sizeof(V_4));
 	MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE * V_5 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 5);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 5> __leave_targets;
 	int32_t G_B8_0 = 0;
 	{
 		// if (ReferenceEquals(Canvas, null))
@@ -20662,12 +20647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectMask2D_UpdateClipSoftness_mEF617C8CF
 	Enumerator_t52795888234F5322AB4684EF231328DBAFBA2B26  V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		// if (ReferenceEquals(Canvas, null))
 		Canvas_t2B7E56B7BDC287962E092755372E214ACB6393EA * L_0;
@@ -22167,7 +22147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect__ctor_mB4B056D158F001158736D4
 		__this->set_m_Elasticity_8((0.100000001f));
 		// private bool m_Inertia = true;
 		__this->set_m_Inertia_9((bool)1);
-		// private float m_DecelerationRate = 0.135f; 
+		// private float m_DecelerationRate = 0.135f; // Only used when inertia is enabled
 		__this->set_m_DecelerationRate_10((0.135000005f));
 		// private float m_ScrollSensitivity = 1.0f;
 		__this->set_m_ScrollSensitivity_11((1.0f));

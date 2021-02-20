@@ -7286,12 +7286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionConfig__ctor_m1976654A083CE2C1
 	memset((&V_4), 0, sizeof(V_4));
 	List_1_tD0117BC32B3DBF148E7E9AC108FC376C3D4922CF * V_5 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		List_1_t4A161C6204A381DADE144FA5F63CF0E3E7E11E33 * L_0 = (List_1_t4A161C6204A381DADE144FA5F63CF0E3E7E11E33 *)il2cpp_codegen_object_new(List_1_t4A161C6204A381DADE144FA5F63CF0E3E7E11E33_il2cpp_TypeInfo_var);
 		List_1__ctor_m0F98CE6F7E0141E6A7388E6DA3FCC2F93802C219(L_0, /*hidden argument*/List_1__ctor_m0F98CE6F7E0141E6A7388E6DA3FCC2F93802C219_RuntimeMethod_var);
@@ -8864,12 +8859,7 @@ IL_002e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionConfigInternal_Finalize_m86CE7D1789FE804A8A655C1C5C81CFAE2097918D (ConnectionConfigInternal_tA4BD9D163516820771949053DE20639A8A7D8078 * __this, const RuntimeMethod* method)
 {
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 	}
 
@@ -9247,12 +9237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionSimulatorConfig_Dispose_m91481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionSimulatorConfig_Finalize_m102F91174589CCD61CC36B903EF7926A2EB578A6 (ConnectionSimulatorConfig_t1AE9575EDB85F7792DE5F22A4E096A4A08AEB935 * __this, const RuntimeMethod* method)
 {
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 	}
 
@@ -9357,12 +9342,7 @@ IL_002e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionSimulatorConfigInternal_Finalize_m5E7E4D2E3B9344061833EBB99082F0394D5D49D5 (ConnectionSimulatorConfigInternal_tB19B4AE3F50ACB7661DC811F6198E37C08ACDB99 * __this, const RuntimeMethod* method)
 {
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 	}
 
@@ -10598,12 +10578,7 @@ IL_002e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalConfigInternal_Finalize_mFFA149D255A46213D5CBCD1745EBC147B3A89330 (GlobalConfigInternal_t0F07F384FD03D7CE842BC781D7C747B5579F680F * __this, const RuntimeMethod* method)
 {
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 	}
 
@@ -11226,12 +11201,7 @@ IL_002e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostTopologyInternal_Finalize_mDB9371DF591F3F2EC5988C3E76ADDC3076F077BA (HostTopologyInternal_tA95C0259BC91D8E3D227BAF3D4F7CEE5C5331E10 * __this, const RuntimeMethod* method)
 {
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 	}
 
@@ -12821,12 +12791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchInfoSnapshot__ctor_mE27E4F585E32808
 	memset((&V_0), 0, sizeof(V_0));
 	MatchDirectConnectInfo_t79A507F1704A58987DFC695D74214C9726BF78A4 * V_1 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		MatchDesc_t49F2F401AE3A8B8B80EDF9838F88127727B4108B * L_0 = ___matchDesc0;
@@ -12964,13 +12929,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAccessToken__ctor_m1BE41B5F2C9C38
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_tDA947A979C1DAB4F09C461FAFD94FE194743A671_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 	}
@@ -12987,9 +12947,11 @@ IL_0008:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0018;
+		}
 		throw e;
 	}
 
@@ -12997,6 +12959,7 @@ CATCH_0018:
 	{ // begin catch(System.Exception)
 		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2 = (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)(ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_il2cpp_TypeInfo_var)), (uint32_t)((int32_t)64));
 		__this->set_array_1(L_2);
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_002a;
 	} // end catch (depth: 1)
 
@@ -14576,12 +14539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkMatch_OnMatchList_m06E1BEE915232A
 	memset((&V_1), 0, sizeof(V_1));
 	MatchDesc_t49F2F401AE3A8B8B80EDF9838F88127727B4108B * V_2 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		List_1_t6DE630FAF3A1BE1CC9F17F3D6CBF747283858F2F * L_0 = (List_1_t6DE630FAF3A1BE1CC9F17F3D6CBF747283858F2F *)il2cpp_codegen_object_new(List_1_t6DE630FAF3A1BE1CC9F17F3D6CBF747283858F2F_il2cpp_TypeInfo_var);
 		List_1__ctor_m3773D4925D11B4FA7DAC7E5BD75BDB92B1968695(L_0, /*hidden argument*/List_1__ctor_m3773D4925D11B4FA7DAC7E5BD75BDB92B1968695_RuntimeMethod_var);
@@ -15918,12 +15876,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransport_IsPortOpen_mDE9CADB4888
 	bool V_5 = false;
 	bool V_6 = false;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 4);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 4> __leave_targets;
 	String_t* G_B3_0 = NULL;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_il2cpp_TypeInfo_var);
@@ -16047,15 +16001,18 @@ IL_0064:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0067;
+		}
 		throw e;
 	}
 
 CATCH_0067:
 	{ // begin catch(System.Object)
 		V_6 = (bool)0;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0073;
 	} // end catch (depth: 1)
 

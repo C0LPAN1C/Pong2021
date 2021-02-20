@@ -18397,11 +18397,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FOVKick_FOVKickDown_m8A4F13C84
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FOVKick__ctor_m2665399135F10D4408DAB7538616139D777E545F (FOVKick_tDB5D8CAE2D25556638622C7DBCA49469FDDF84DE * __this, const RuntimeMethod* method)
 {
 	{
-		// public float FOVIncrease = 3f;                  
+		// public float FOVIncrease = 3f;                  // the amount the field of view increases when going into a run
 		__this->set_FOVIncrease_2((3.0f));
-		// public float TimeToIncrease = 1f;               
+		// public float TimeToIncrease = 1f;               // the amount of time the field of view will increase over
 		__this->set_TimeToIncrease_3((1.0f));
-		// public float TimeToDecrease = 1f;               
+		// public float TimeToDecrease = 1f;               // the amount of time the field of view will take to return to its original size
 		__this->set_TimeToDecrease_4((1.0f));
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		return;
@@ -18703,7 +18703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fisheye_OnRenderImage_m312DBD5FDF3E49AA3
 
 IL_0010:
 	{
-		// float oneOverBaseSize = 80.0f / 512.0f; 
+		// float oneOverBaseSize = 80.0f / 512.0f; // to keep values more like in the old version of fisheye
 		V_0 = (0.15625f);
 		// float ar = (source.width * 1.0f) / (source.height * 1.0f);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_3 = ___source0;
@@ -19299,10 +19299,10 @@ IL_02b6:
 IL_02be:
 	{
 		V_25 = G_B16_0;
-		// sceneParams.x = sceneDensity * 1.2011224087f; 
+		// sceneParams.x = sceneDensity * 1.2011224087f; // density / sqrt(ln(2)), used by Exp2 fog mode
 		float L_122 = V_19;
 		(&V_22)->set_x_1(((float)il2cpp_codegen_multiply((float)L_122, (float)(1.2011224f))));
-		// sceneParams.y = sceneDensity * 1.4426950408f; 
+		// sceneParams.y = sceneDensity * 1.4426950408f; // density / ln(2), used by Exp fog mode
 		float L_123 = V_19;
 		(&V_22)->set_y_2(((float)il2cpp_codegen_multiply((float)L_123, (float)(1.44269502f))));
 		// sceneParams.z = linear ? -invDiff : 0.0f;
@@ -19416,7 +19416,7 @@ IL_0336:
 		}
 	}
 	{
-		// pass = 0; 
+		// pass = 0; // distance + height
 		V_26 = 0;
 		goto IL_0373;
 	}
@@ -19431,14 +19431,14 @@ IL_0363:
 		}
 	}
 	{
-		// pass = 1; 
+		// pass = 1; // distance only
 		V_26 = 1;
 		goto IL_0373;
 	}
 
 IL_0370:
 	{
-		// pass = 2; 
+		// pass = 2; // height only
 		V_26 = 2;
 	}
 
@@ -19486,19 +19486,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalFog_CustomGraphicsBlit_m08DA2E15F2
 		GL_Begin_mD719B21F92DCF2D8F567C008AD21CA73CA762622(7, /*hidden argument*/NULL);
 		// GL.MultiTexCoord2 (0, 0.0f, 0.0f);
 		GL_MultiTexCoord2_m49C02CD7D73016FE3F5C94EFA6CA454AB8CA09B1(0, (0.0f), (0.0f), /*hidden argument*/NULL);
-		// GL.Vertex3 (0.0f, 0.0f, 3.0f); 
+		// GL.Vertex3 (0.0f, 0.0f, 3.0f); // BL
 		GL_Vertex3_mA3D208C1AAEDFCF24364A88552204D8D1BE6AFE9((0.0f), (0.0f), (3.0f), /*hidden argument*/NULL);
 		// GL.MultiTexCoord2 (0, 1.0f, 0.0f);
 		GL_MultiTexCoord2_m49C02CD7D73016FE3F5C94EFA6CA454AB8CA09B1(0, (1.0f), (0.0f), /*hidden argument*/NULL);
-		// GL.Vertex3 (1.0f, 0.0f, 2.0f); 
+		// GL.Vertex3 (1.0f, 0.0f, 2.0f); // BR
 		GL_Vertex3_mA3D208C1AAEDFCF24364A88552204D8D1BE6AFE9((1.0f), (0.0f), (2.0f), /*hidden argument*/NULL);
 		// GL.MultiTexCoord2 (0, 1.0f, 1.0f);
 		GL_MultiTexCoord2_m49C02CD7D73016FE3F5C94EFA6CA454AB8CA09B1(0, (1.0f), (1.0f), /*hidden argument*/NULL);
-		// GL.Vertex3 (1.0f, 1.0f, 1.0f); 
+		// GL.Vertex3 (1.0f, 1.0f, 1.0f); // TR
 		GL_Vertex3_mA3D208C1AAEDFCF24364A88552204D8D1BE6AFE9((1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
 		// GL.MultiTexCoord2 (0, 0.0f, 1.0f);
 		GL_MultiTexCoord2_m49C02CD7D73016FE3F5C94EFA6CA454AB8CA09B1(0, (0.0f), (1.0f), /*hidden argument*/NULL);
-		// GL.Vertex3 (0.0f, 1.0f, 0.0f); 
+		// GL.Vertex3 (0.0f, 1.0f, 0.0f); // TL
 		GL_Vertex3_mA3D208C1AAEDFCF24364A88552204D8D1BE6AFE9((0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
 		// GL.End ();
 		GL_End_m4A164117D2D3CD3620938F2D29EFBA2D5CB900B7(/*hidden argument*/NULL);
@@ -21740,7 +21740,7 @@ IL_002b:
 
 IL_003d:
 	{
-		// if ( !shaderRGB.isSupported ) 
+		// if ( !shaderRGB.isSupported ) // disable effect if RGB shader is not supported
 		Shader_tB2355DC4F3CAF20B2F1AB5AABBF37C3555FFBC39 * L_5 = __this->get_shaderRGB_15();
 		NullCheck(L_5);
 		bool L_6;
@@ -21758,7 +21758,7 @@ IL_003d:
 
 IL_0052:
 	{
-		// else if ( !shaderYUV.isSupported ) 
+		// else if ( !shaderYUV.isSupported ) // fallback to RGB if YUV is not supported
 		Shader_tB2355DC4F3CAF20B2F1AB5AABBF37C3555FFBC39 * L_7 = __this->get_shaderYUV_16();
 		NullCheck(L_7);
 		bool L_8;
@@ -21994,7 +21994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NoiseAndScratches_OnRenderImage_mA872829
 		}
 	}
 	{
-		// scratchTimeLeft = Random.value * 2 / scratchFPS; 
+		// scratchTimeLeft = Random.value * 2 / scratchFPS; // we have sanitized it earlier, won't be zero
 		float L_1;
 		L_1 = Random_get_value_m9AEBC7DF0BB6C57C928B0798349A7D3C0B3FB872(/*hidden argument*/NULL);
 		float L_2 = __this->get_scratchFPS_11();
@@ -22030,7 +22030,7 @@ IL_0041:
 		Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * L_11 = __this->get_scratchTexture_14();
 		NullCheck(L_10);
 		Material_SetTexture_m04A1CD55201841F85E475992931A210229C782CF(L_10, _stringLiteralCA358E33682D63809BC819D06A5C119F65140337, L_11, /*hidden argument*/NULL);
-		// float grainScale = 1.0f / grainSize; 
+		// float grainScale = 1.0f / grainSize; // we have sanitized it earlier, won't be zero
 		float L_12 = __this->get_grainSize_8();
 		V_1 = ((float)((float)(1.0f)/(float)L_12));
 		// mat.SetVector("_GrainOffsetScale", new Vector4(
@@ -23123,7 +23123,7 @@ IL_00f7:
 	{
 		// GL.invertCulling = true;
 		GL_set_invertCulling_mECEDF71D7F35A9F99931F6975D415C9C6A8B8FF9((bool)1, /*hidden argument*/NULL);
-		// Transform reflectiveSurface = transform; 
+		// Transform reflectiveSurface = transform; //waterHeight;
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_41;
 		L_41 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
 		V_0 = L_41;
@@ -23675,12 +23675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformSpecificContent_EnableContent_mE
 	RuntimeObject* V_4 = NULL;
 	MonoBehaviourU5BU5D_t4F792E4F07CDD1638166A5F25EA3670210A8192D* V_5 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// if (m_Content.Length > 0)
 		GameObjectU5BU5D_tA88FC1A1FC9D4D73D0B3984D4B0ECE88F4C47642* L_0 = __this->get_m_Content_5();
@@ -24567,7 +24562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsBase_DrawBorder_mCA345C6F2419
 		// RenderTexture.active = dest;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_0 = ___dest0;
 		RenderTexture_set_active_mA70AFD6D3CB54E9AEDDD45E48B8B6979FDB75ED9(L_0, /*hidden argument*/NULL);
-		// bool  invertY = true; 
+		// bool  invertY = true; // source.texelSize.y < 0.0ff;
 		V_3 = (bool)1;
 		// GL.PushMatrix();
 		GL_PushMatrix_mF1F26015AB75226AB048A7ABF700871C5A0AE0B3(/*hidden argument*/NULL);
@@ -24861,7 +24856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_DrawLowLevelPlaneAlign
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_2 = ___source1;
 		NullCheck(L_1);
 		Material_SetTexture_m04A1CD55201841F85E475992931A210229C782CF(L_1, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_2, /*hidden argument*/NULL);
-		// bool  invertY = true; 
+		// bool  invertY = true; // source.texelSize.y < 0.0f;
 		V_0 = (bool)1;
 		// GL.PushMatrix();
 		GL_PushMatrix_mF1F26015AB75226AB048A7ABF700871C5A0AE0B3(/*hidden argument*/NULL);
@@ -24905,7 +24900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_DrawLowLevelPlaneAlign
 		// float y2 = 1.0f/cotangent;
 		float L_17 = V_2;
 		V_6 = ((float)((float)(1.0f)/(float)L_17));
-		// float sc = 1.0f; 
+		// float sc = 1.0f; // magic constant (for now)
 		V_7 = (1.0f);
 		// x1 *= dist * sc;
 		float L_18 = V_3;
@@ -25044,7 +25039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_DrawBorder_m7D1D705D2C
 		// RenderTexture.active = dest;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_0 = ___dest0;
 		RenderTexture_set_active_mA70AFD6D3CB54E9AEDDD45E48B8B6979FDB75ED9(L_0, /*hidden argument*/NULL);
-		// bool  invertY = true; 
+		// bool  invertY = true; // source.texelSize.y < 0.0ff;
 		V_3 = (bool)1;
 		// GL.PushMatrix();
 		GL_PushMatrix_mF1F26015AB75226AB048A7ABF700871C5A0AE0B3(/*hidden argument*/NULL);
@@ -25292,7 +25287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PostEffectsHelper_DrawLowLevelQuad_mEF60
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_2 = ___source4;
 		NullCheck(L_1);
 		Material_SetTexture_m04A1CD55201841F85E475992931A210229C782CF(L_1, _stringLiteral4B8146FB95E4F51B29DA41EB5F6D60F8FD0ECF21, L_2, /*hidden argument*/NULL);
-		// bool  invertY = true; 
+		// bool  invertY = true; // source.texelSize.y < 0.0f;
 		V_0 = (bool)1;
 		// GL.PushMatrix();
 		GL_PushMatrix_mF1F26015AB75226AB048A7ABF700871C5A0AE0B3(/*hidden argument*/NULL);
@@ -26252,17 +26247,17 @@ IL_0010:
 		float L_13;
 		L_13 = Matrix4x4_get_Item_mA0E634EF5A723EA9DD824391D4C62F4100C64813((Matrix4x4_tDE7FF4F2E2EA284F6EFE00D627789D0E5B8B4461 *)(&V_0), 5, /*hidden argument*/NULL);
 		Vector4__ctor_mCAB598A37C4D5E80282277E828B8A3EAD936D3B2((Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7 *)(&V_2), ((float)((float)(-2.0f)/(float)((float)il2cpp_codegen_multiply((float)((float)((float)L_6)), (float)L_7)))), ((float)((float)(-2.0f)/(float)((float)il2cpp_codegen_multiply((float)((float)((float)L_8)), (float)L_9)))), ((float)((float)((float)il2cpp_codegen_subtract((float)(1.0f), (float)L_10))/(float)L_11)), ((float)((float)((float)il2cpp_codegen_add((float)(1.0f), (float)L_12))/(float)L_13)), /*hidden argument*/NULL);
-		// aoMaterial.SetVector ("_ProjInfo", projInfo); 
+		// aoMaterial.SetVector ("_ProjInfo", projInfo); // used for unprojection
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_14 = __this->get_aoMaterial_14();
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_15 = V_2;
 		NullCheck(L_14);
 		Material_SetVector_mCB22CD5FDA6D8C7C282D7998A9244E12CC293F0D(L_14, _stringLiteral0F78241FF6E78ADA6D1FB6DAA00F25817203ED13, L_15, /*hidden argument*/NULL);
-		// aoMaterial.SetMatrix ("_ProjectionInv", invP); 
+		// aoMaterial.SetMatrix ("_ProjectionInv", invP); // only used for reference
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_16 = __this->get_aoMaterial_14();
 		Matrix4x4_tDE7FF4F2E2EA284F6EFE00D627789D0E5B8B4461  L_17 = V_1;
 		NullCheck(L_16);
 		Material_SetMatrix_m4B2718A5E264BFDBAD965D8A67399746F6799DCD(L_16, _stringLiteralBB6CBCD648C07EAC90B08C00428BA435EC0272BF, L_17, /*hidden argument*/NULL);
-		// aoMaterial.SetTexture ("_Rand", rand); 
+		// aoMaterial.SetTexture ("_Rand", rand); // not needed for DX11 :)
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_18 = __this->get_aoMaterial_14();
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_19 = __this->get_rand_12();
 		NullCheck(L_18);
@@ -26980,7 +26975,7 @@ IL_01d3:
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_77 = __this->get_m_SSAOMaterial_12();
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_Blit_mF7AA319E24D980D0E560A721966B87186392C3DD((Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE *)NULL, L_76, L_77, 3, /*hidden argument*/NULL);
-		// RenderTexture.ReleaseTemporary (rtAO); 
+		// RenderTexture.ReleaseTemporary (rtAO); // original rtAO not needed anymore
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_78 = V_0;
 		RenderTexture_ReleaseTemporary_m2BF2BDDC359A491C05C401B977878DAE1D0850D4(L_78, /*hidden argument*/NULL);
 		// RenderTexture rtBlurY = RenderTexture.GetTemporary (source.width, source.height, 0);
@@ -27018,10 +27013,10 @@ IL_01d3:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_92 = V_7;
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_93 = __this->get_m_SSAOMaterial_12();
 		Graphics_Blit_mF7AA319E24D980D0E560A721966B87186392C3DD(L_91, L_92, L_93, 3, /*hidden argument*/NULL);
-		// RenderTexture.ReleaseTemporary (rtBlurX); 
+		// RenderTexture.ReleaseTemporary (rtBlurX); // blurX RT not needed anymore
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_94 = V_6;
 		RenderTexture_ReleaseTemporary_m2BF2BDDC359A491C05C401B977878DAE1D0850D4(L_94, /*hidden argument*/NULL);
-		// rtAO = rtBlurY; 
+		// rtAO = rtBlurY; // AO is the blurred one now
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_95 = V_7;
 		V_0 = L_95;
 	}
@@ -27656,7 +27651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedFunctions__ctor_m6438EFD9FBA5402D2
 		__this->set_quitGameMessage_31(_stringLiteral04513B7C65DE704F77DA121C6FD31229D7711823);
 		// public string matchCompleteMessage = "Game complete. Please return to main menu.";
 		__this->set_matchCompleteMessage_32(_stringLiteral2281F097C40565FAC2F2FB462841D4BE63C4E977);
-		// public string moveNotSentMessage = "Move couldn?t be sent at this time. Please check network connectivity.";
+		// public string moveNotSentMessage = "Move couldn’t be sent at this time. Please check network connectivity.";
 		__this->set_moveNotSentMessage_33(_stringLiteralF62586F00786F7F381494B0C7D9D0C84DB71A737);
 		// public string gameNotCreatedMessage = "Error creating new game. Please check network connectivity.";
 		__this->set_gameNotCreatedMessage_34(_stringLiteral5CB14F24FE83E10C70041DD4E62DEE6AC117175D);
@@ -27672,31 +27667,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedFunctions__ctor_m6438EFD9FBA5402D2
 		__this->set_resultsNotRecordedMessage_39(_stringLiteral219D87103F1C36F49FE1839823E932F41DF616E4);
 		// public string cancelGameSuccessMessage = "Your game is cancelled. Please return to the main menu.";
 		__this->set_cancelGameSuccessMessage_40(_stringLiteral6055EDFE444F285F93DA245CC52E49956176AF1D);
-		// public string cancelGameFailedMessage = "Can?t cancel game at this time. Please try again later.";
+		// public string cancelGameFailedMessage = "Can’t cancel game at this time. Please try again later.";
 		__this->set_cancelGameFailedMessage_41(_stringLiteral9D748DD0783AA8BE59A92966CFC16E73C841BAEF);
-		// public string moveNotReceived = "Move can?t be received this time. Please check network connectivity.";
+		// public string moveNotReceived = "Move can’t be received this time. Please check network connectivity.";
 		__this->set_moveNotReceived_42(_stringLiteralDBAD3DAAAFF969054305D9547314BD35F8839E46);
 		// public string checkmateMessage = "Congratulations! You have your first checkmate.";
 		__this->set_checkmateMessage_43(_stringLiteral4337EE3C4F20942F13509B2665ED4524E13F61BE);
-		// public string promoMessage = "Congratulations! You?ve gotten your first promotion.";
+		// public string promoMessage = "Congratulations! You’ve gotten your first promotion.";
 		__this->set_promoMessage_44(_stringLiteral13BE312F354DB0A4AF23EEAD5F6FDC7582E3D48A);
-		// public string castleMessage = "Congratulations! You?ve castled for the first time.";
+		// public string castleMessage = "Congratulations! You’ve castled for the first time.";
 		__this->set_castleMessage_45(_stringLiteralC4BE575791FCD530CED8849E55513628E5F9B264);
-		// public string foolsmateMessage = "Congratulations! You?ve gotten your first Fool's mate.";
+		// public string foolsmateMessage = "Congratulations! You’ve gotten your first Fool's mate.";
 		__this->set_foolsmateMessage_46(_stringLiteralF02215635F9B92E5992E01AAA6AC1EC452006D28);
-		// public string scholarsmateMessage = "Congratulations! You?ve gotten your first Scholar's mate.";
+		// public string scholarsmateMessage = "Congratulations! You’ve gotten your first Scholar's mate.";
 		__this->set_scholarsmateMessage_47(_stringLiteral238E81C163F9A71BDDF4E39AC1B7AAF0C71E92C4);
-		// public string stalemateMessage = "Congratulations! You?ve gotten your first stalemate.";
+		// public string stalemateMessage = "Congratulations! You’ve gotten your first stalemate.";
 		__this->set_stalemateMessage_48(_stringLiteral72556BB1587267AB889F375EBF40B4B91E167B85);
-		// public string tenCheckmatesMessage = "Congratulations! You?ve gotten 10 checkmates.";
+		// public string tenCheckmatesMessage = "Congratulations! You’ve gotten 10 checkmates.";
 		__this->set_tenCheckmatesMessage_49(_stringLiteral5F2CC21496B7C0922F0D504FC0B87EE43E10D501);
-		// public string hundredCheckmatesMessage = "Congratulations! You?ve gotten 100 checkmates.";
+		// public string hundredCheckmatesMessage = "Congratulations! You’ve gotten 100 checkmates.";
 		__this->set_hundredCheckmatesMessage_50(_stringLiteral46DD4735D047F172BA56C84B6F6BB158EAEFE57F);
-		// public string thousandCheckmatesMessage = "Congratulations! You?ve gotten 1000 checkmates.";
+		// public string thousandCheckmatesMessage = "Congratulations! You’ve gotten 1000 checkmates.";
 		__this->set_thousandCheckmatesMessage_51(_stringLiteralA7163A5ED1BB48F25E4D79197F39FF0266D3BEF0);
-		// public string checkMessage = "Congratulations! You?ve gotten first check.";
+		// public string checkMessage = "Congratulations! You’ve gotten first check.";
 		__this->set_checkMessage_52(_stringLiteralC0A343D8E69D3390757F6DB9CB2FA85C9CDA84A6);
-		// public string enpassantMessage = "Congratulations! You?ve gotten first pawn enpassant.";
+		// public string enpassantMessage = "Congratulations! You’ve gotten first pawn enpassant.";
 		__this->set_enpassantMessage_53(_stringLiteralEE9ABC9690AA5659A8B44E528D8A533920414BEF);
 		// public string leaderboardWins = "Congratulations! You've won.";
 		__this->set_leaderboardWins_54(_stringLiteral1E05590064DD3753309732C9FC9115C9C470D972);
@@ -28658,7 +28653,7 @@ IL_0304:
 
 IL_036c:
 	{
-		// sunShaftsMaterial.SetVector ("_SunColor", Vector4.zero); 
+		// sunShaftsMaterial.SetVector ("_SunColor", Vector4.zero); // no backprojection !
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_123 = __this->get_sunShaftsMaterial_18();
 		Vector4_tA56A37FC5661BCC89C3DDC24BE12BA5BCB6A02C7  L_124;
 		L_124 = Vector4_get_zero_m9E807FEBC8B638914DF4A0BA87C0BD95A19F5200(/*hidden argument*/NULL);
@@ -29914,7 +29909,7 @@ IL_0101:
 
 IL_0135:
 	{
-		// bool freshlyBrewedInternalRt = CreateInternalRenderTexture(); 
+		// bool freshlyBrewedInternalRt = CreateInternalRenderTexture(); // this retrieves rtFormat, so should happen before rt allocations
 		bool L_38;
 		L_38 = Tonemapping_CreateInternalRenderTexture_m2C5C3FD21B3C84A308218141C8A16A4F1B44A9F4(__this, /*hidden argument*/NULL);
 		V_0 = L_38;
@@ -30147,7 +30142,7 @@ IL_025c:
 		float L_109 = __this->get_adaptionSpeed_14();
 		NullCheck(L_108);
 		Material_SetFloat_mBE01E05D49E5C7045E010F49A38E96B101D82768(L_108, _stringLiteralC85CED4FA3BF4FAFA2854F821A7498848B323CD4, L_109, /*hidden argument*/NULL);
-		// rt.MarkRestoreExpected(); 
+		// rt.MarkRestoreExpected(); // keeping luminance values between frames, RT restore expected
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_110 = __this->get_rt_18();
 		NullCheck(L_110);
 		RenderTexture_MarkRestoreExpected_m817B77709580CCBC1D8F0787F855AAF1BBF4CEA9(L_110, /*hidden argument*/NULL);
@@ -30273,7 +30268,7 @@ IL_0339:
 		// Debug.LogError("No valid adaptive tonemapper type found!");
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_LogError_m8850D65592770A364D494025FF3A73E8D4D70485(_stringLiteral2C3276B6EABA4BB4E3366F0EB502A5F578BE657F, /*hidden argument*/NULL);
-		// Graphics.Blit(source, destination); 
+		// Graphics.Blit(source, destination); // at least we get the TransformToLDR effect
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_134 = ___source0;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_135 = ___destination1;
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
@@ -31207,22 +31202,22 @@ IL_0170:
 
 IL_0178:
 	{
-		// m_VignetteMaterial.SetFloat("_Intensity", (1.0f / (1.0f - intensity) - 1.0f));        
+		// m_VignetteMaterial.SetFloat("_Intensity", (1.0f / (1.0f - intensity) - 1.0f));        // intensity for vignette
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_56 = __this->get_m_VignetteMaterial_18();
 		float L_57 = __this->get_intensity_8();
 		NullCheck(L_56);
 		Material_SetFloat_mBE01E05D49E5C7045E010F49A38E96B101D82768(L_56, _stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E, ((float)il2cpp_codegen_subtract((float)((float)((float)(1.0f)/(float)((float)il2cpp_codegen_subtract((float)(1.0f), (float)L_57)))), (float)(1.0f))), /*hidden argument*/NULL);
-		// m_VignetteMaterial.SetFloat("_Blur", (1.0f / (1.0f - blur)) - 1.0f);                    
+		// m_VignetteMaterial.SetFloat("_Blur", (1.0f / (1.0f - blur)) - 1.0f);                    // blur intensity
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_58 = __this->get_m_VignetteMaterial_18();
 		float L_59 = __this->get_blur_11();
 		NullCheck(L_58);
 		Material_SetFloat_mBE01E05D49E5C7045E010F49A38E96B101D82768(L_58, _stringLiteralA621DB6632C8DC8F2861D67FDB77D1DB44D2C0B5, ((float)il2cpp_codegen_subtract((float)((float)((float)(1.0f)/(float)((float)il2cpp_codegen_subtract((float)(1.0f), (float)L_59)))), (float)(1.0f))), /*hidden argument*/NULL);
-		// m_VignetteMaterial.SetTexture ("_VignetteTex", color2A);    
+		// m_VignetteMaterial.SetTexture ("_VignetteTex", color2A);    // blurred texture
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_60 = __this->get_m_VignetteMaterial_18();
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_61 = V_5;
 		NullCheck(L_60);
 		Material_SetTexture_m04A1CD55201841F85E475992931A210229C782CF(L_60, _stringLiteral322836504097FF5183FA9B195361CABCA3C9F347, L_61, /*hidden argument*/NULL);
-		// Graphics.Blit (source, color, m_VignetteMaterial, 0);            
+		// Graphics.Blit (source, color, m_VignetteMaterial, 0);            // prepass blit: darken & blur corners
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_62 = ___source0;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_63 = V_4;
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_64 = __this->get_m_VignetteMaterial_18();
@@ -31355,7 +31350,7 @@ IL_0292:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VignetteAndChromaticAberration__ctor_mF349C1B07B06E81EE165FA15AE7FC48721173DF0 (VignetteAndChromaticAberration_tE0619D530FBC835562F54CC776DBA2EABA203771 * __this, const RuntimeMethod* method)
 {
 	{
-		// public float intensity = 0.036f;                    
+		// public float intensity = 0.036f;                    // intensity == 0 disables pre pass (optimization)
 		__this->set_intensity_8((0.0359999985f));
 		// public float chromaticAberration = 0.2f;
 		__this->set_chromaticAberration_9((0.200000003f));
@@ -31693,7 +31688,7 @@ IL_009f:
 		L_62 = Matrix4x4_op_Multiply_mC2B30D333D4399C1693414F1A73D87FB3450F39F(L_59, L_61, /*hidden argument*/NULL);
 		NullCheck(L_57);
 		Camera_set_cullingMatrix_m74474597B2F1D09F4802A40D595E96B9EDEC7F05(L_57, L_62, /*hidden argument*/NULL);
-		// reflectionCamera.cullingMask = ~(1 << 4) & reflectLayers.value; 
+		// reflectionCamera.cullingMask = ~(1 << 4) & reflectLayers.value; // never render water layer
 		Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * L_63 = V_2;
 		LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 * L_64 = __this->get_address_of_reflectLayers_8();
 		int32_t L_65;
@@ -31817,7 +31812,7 @@ IL_01fa:
 		L_109 = Matrix4x4_op_Multiply_mC2B30D333D4399C1693414F1A73D87FB3450F39F(L_106, L_108, /*hidden argument*/NULL);
 		NullCheck(L_104);
 		Camera_set_cullingMatrix_m74474597B2F1D09F4802A40D595E96B9EDEC7F05(L_104, L_109, /*hidden argument*/NULL);
-		// refractionCamera.cullingMask = ~(1 << 4) & refractLayers.value; 
+		// refractionCamera.cullingMask = ~(1 << 4) & refractLayers.value; // never render water layer
 		Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * L_110 = V_3;
 		LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 * L_111 = __this->get_address_of_refractLayers_9();
 		int32_t L_112;
@@ -31974,12 +31969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Water_OnDisable_m98EA0D38919C4E7299ACD4A
 	KeyValuePair_2_tEAF87C0F33025CA0206CA8F0E458A58AF1218318  V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		// if (m_ReflectionTexture)
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_0 = __this->get_m_ReflectionTexture_12();
@@ -32607,7 +32597,7 @@ IL_00a8:
 		NullCheck(L_21);
 		bool L_24;
 		L_24 = Dictionary_2_TryGetValue_mAE9D5693DDFE024A752241B9A0CF7392E46A71B1(L_21, L_22, (Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C **)L_23, /*hidden argument*/Dictionary_2_TryGetValue_mAE9D5693DDFE024A752241B9A0CF7392E46A71B1_RuntimeMethod_var);
-		// if (!reflectionCamera) 
+		// if (!reflectionCamera) // catch both not-in-dictionary and in-dictionary-but-deleted-GO
 		Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C ** L_25 = ___reflectionCamera1;
 		Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * L_26 = *((Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C **)L_25);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
@@ -32803,7 +32793,7 @@ IL_020f:
 		NullCheck(L_84);
 		bool L_87;
 		L_87 = Dictionary_2_TryGetValue_mAE9D5693DDFE024A752241B9A0CF7392E46A71B1(L_84, L_85, (Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C **)L_86, /*hidden argument*/Dictionary_2_TryGetValue_mAE9D5693DDFE024A752241B9A0CF7392E46A71B1_RuntimeMethod_var);
-		// if (!refractionCamera) 
+		// if (!refractionCamera) // catch both not-in-dictionary and in-dictionary-but-deleted-GO
 		Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C ** L_88 = ___refractionCamera2;
 		Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * L_89 = *((Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C **)L_88);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
@@ -33236,11 +33226,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Water__ctor_m6DC8FA88244FBDD8F41519FD792
 		LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8  L_1;
 		L_1 = LayerMask_op_Implicit_mC7EE32122D2A4786D3C00B93E41604B71BF1397C((-1), /*hidden argument*/NULL);
 		__this->set_refractLayers_9(L_1);
-		// private Dictionary<Camera, Camera> m_ReflectionCameras = new Dictionary<Camera, Camera>(); 
+		// private Dictionary<Camera, Camera> m_ReflectionCameras = new Dictionary<Camera, Camera>(); // Camera -> Camera table
 		Dictionary_2_t5C21CFC45D9B0966D9C445B9E18CE3ED4D03E5CD * L_2 = (Dictionary_2_t5C21CFC45D9B0966D9C445B9E18CE3ED4D03E5CD *)il2cpp_codegen_object_new(Dictionary_2_t5C21CFC45D9B0966D9C445B9E18CE3ED4D03E5CD_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m61A45DA28356434F60D58C045C0428C85411098C(L_2, /*hidden argument*/Dictionary_2__ctor_m61A45DA28356434F60D58C045C0428C85411098C_RuntimeMethod_var);
 		__this->set_m_ReflectionCameras_10(L_2);
-		// private Dictionary<Camera, Camera> m_RefractionCameras = new Dictionary<Camera, Camera>(); 
+		// private Dictionary<Camera, Camera> m_RefractionCameras = new Dictionary<Camera, Camera>(); // Camera -> Camera table
 		Dictionary_2_t5C21CFC45D9B0966D9C445B9E18CE3ED4D03E5CD * L_3 = (Dictionary_2_t5C21CFC45D9B0966D9C445B9E18CE3ED4D03E5CD *)il2cpp_codegen_object_new(Dictionary_2_t5C21CFC45D9B0966D9C445B9E18CE3ED4D03E5CD_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m61A45DA28356434F60D58C045C0428C85411098C(L_3, /*hidden argument*/Dictionary_2__ctor_m61A45DA28356434F60D58C045C0428C85411098C_RuntimeMethod_var);
 		__this->set_m_RefractionCameras_11(L_3);

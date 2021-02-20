@@ -8727,7 +8727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateTrigger_OnTriggerEnter_mCB6DFF99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateTrigger__ctor_m362C721F6D775468460BE0341F77712452B28F73 (ActivateTrigger_tF52B483107AD22CE262B4868E68D5681EEEF6305 * __this, const RuntimeMethod* method)
 {
 	{
-		// public Mode action = Mode.Activate;         
+		// public Mode action = Mode.Activate;         // The action to accomplish
 		__this->set_action_4(2);
 		// public int triggerCount = 1;
 		__this->set_triggerCount_7(1);
@@ -9195,13 +9195,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlphaButtonClickMask_Start_mE50959C87E98
 	}
 	Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * V_0 = NULL;
 	bool V_1 = false;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		// _image = GetComponent<Image>();
 		Image_t4021FF27176E44BFEDDCBE43C7FE6B713EC70D3C * L_0;
@@ -9242,23 +9237,26 @@ IL_0028:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_0031;
+		}
 		throw e;
 	}
 
 CATCH_0031:
 	{ // begin catch(UnityEngine.UnityException)
 		// Debug.LogError(e.Message);
-		NullCheck(((UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)__exception_local));
+		NullCheck(((UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)IL2CPP_GET_ACTIVE_EXCEPTION(UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)));
 		String_t* L_8;
-		L_8 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, ((UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)__exception_local));
+		L_8 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, ((UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)IL2CPP_GET_ACTIVE_EXCEPTION(UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)));
 		IL2CPP_RUNTIME_CLASS_INIT(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var)));
 		Debug_LogError_m8850D65592770A364D494025FF3A73E8D4D70485(L_8, /*hidden argument*/NULL);
 		// isInvalid = true;
 		V_1 = (bool)1;
 		// }
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0041;
 	} // end catch (depth: 1)
 
@@ -10710,7 +10708,7 @@ IL_01a5:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_97 = V_8;
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_SetRenderTarget_m78AE234327CCDBCEA288FBEFB53D6CEAD3EFC939(L_97, /*hidden argument*/NULL);
-		// GL.Clear(false, true, Color.black); 
+		// GL.Clear(false, true, Color.black); // Clear to avoid RT restore
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_98;
 		L_98 = Color_get_black_m67E91EB7017FC74D9AB5ADEF6B6929B7EFC9A982(/*hidden argument*/NULL);
 		GL_Clear_mF5FCE24D7F60731D6D88AA3DC98B0E88A644CD93((bool)0, (bool)1, L_98, /*hidden argument*/NULL);
@@ -10724,7 +10722,7 @@ IL_01a5:
 
 IL_028d:
 	{
-		// quarterRezColor.MarkRestoreExpected(); 
+		// quarterRezColor.MarkRestoreExpected(); // using max blending, RT restore expected
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_101 = V_8;
 		NullCheck(L_101);
 		RenderTexture_MarkRestoreExpected_m817B77709580CCBC1D8F0787F855AAF1BBF4CEA9(L_101, /*hidden argument*/NULL);
@@ -10766,7 +10764,7 @@ IL_02ab:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_109 = V_10;
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_SetRenderTarget_m78AE234327CCDBCEA288FBEFB53D6CEAD3EFC939(L_109, /*hidden argument*/NULL);
-		// GL.Clear(false, true, Color.black); 
+		// GL.Clear(false, true, Color.black); // Clear to avoid RT restore
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_110;
 		L_110 = Color_get_black_m67E91EB7017FC74D9AB5ADEF6B6929B7EFC9A982(/*hidden argument*/NULL);
 		GL_Clear_mF5FCE24D7F60731D6D88AA3DC98B0E88A644CD93((bool)0, (bool)1, L_110, /*hidden argument*/NULL);
@@ -10831,7 +10829,7 @@ IL_02e4:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_129 = V_8;
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_SetRenderTarget_m78AE234327CCDBCEA288FBEFB53D6CEAD3EFC939(L_129, /*hidden argument*/NULL);
-		// GL.Clear(false, true, Color.black); 
+		// GL.Clear(false, true, Color.black); // Clear to avoid RT restore
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_130;
 		L_130 = Color_get_black_m67E91EB7017FC74D9AB5ADEF6B6929B7EFC9A982(/*hidden argument*/NULL);
 		GL_Clear_mF5FCE24D7F60731D6D88AA3DC98B0E88A644CD93((bool)0, (bool)1, L_130, /*hidden argument*/NULL);
@@ -10854,7 +10852,7 @@ IL_02e4:
 		// Graphics.SetRenderTarget(rtFlares4);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_138 = V_16;
 		Graphics_SetRenderTarget_m78AE234327CCDBCEA288FBEFB53D6CEAD3EFC939(L_138, /*hidden argument*/NULL);
-		// GL.Clear(false, true, Color.black); 
+		// GL.Clear(false, true, Color.black); // Clear to avoid RT restore
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_139;
 		L_139 = Color_get_black_m67E91EB7017FC74D9AB5ADEF6B6929B7EFC9A982(/*hidden argument*/NULL);
 		GL_Clear_mF5FCE24D7F60731D6D88AA3DC98B0E88A644CD93((bool)0, (bool)1, L_139, /*hidden argument*/NULL);
@@ -11206,7 +11204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bloom_AddTo_m18CFE821052587FDAD9EEF97A6A
 		float L_1 = ___intensity_0;
 		NullCheck(L_0);
 		Material_SetFloat_mBE01E05D49E5C7045E010F49A38E96B101D82768(L_0, _stringLiteral4E207A1E776F6188653FF9228A95BFD3A17B492E, L_1, /*hidden argument*/NULL);
-		// to.MarkRestoreExpected(); 
+		// to.MarkRestoreExpected(); // additive blending, RT restore expected
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_2 = ___to2;
 		NullCheck(L_2);
 		RenderTexture_MarkRestoreExpected_m817B77709580CCBC1D8F0787F855AAF1BBF4CEA9(L_2, /*hidden argument*/NULL);
@@ -11306,7 +11304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bloom_BlendFlares_m94BE7DB5514910D249654
 		L_47 = Vector4_op_Multiply_m4B615DCAD6D77FE276AC56F17EA3ED0DCD942111_inline(L_45, L_46, /*hidden argument*/NULL);
 		NullCheck(L_36);
 		Material_SetVector_mCB22CD5FDA6D8C7C282D7998A9244E12CC293F0D(L_36, _stringLiteral2B2F87855E2F1F2D73948E75AA00D22AEB5963D6, L_47, /*hidden argument*/NULL);
-		// to.MarkRestoreExpected(); 
+		// to.MarkRestoreExpected(); // additive blending, RT restore expected
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_48 = ___to1;
 		NullCheck(L_48);
 		RenderTexture_MarkRestoreExpected_m817B77709580CCBC1D8F0787F855AAF1BBF4CEA9(L_48, /*hidden argument*/NULL);
@@ -11419,7 +11417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bloom_Vignette_m9144D3370D3FF3672296470E
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_3 = __this->get_lensFlareVignetteMask_28();
 		NullCheck(L_2);
 		Material_SetTexture_m04A1CD55201841F85E475992931A210229C782CF(L_2, _stringLiteral3F42ED00D84DBC7A3B4658065DEA62873778201F, L_3, /*hidden argument*/NULL);
-		// to.MarkRestoreExpected(); 
+		// to.MarkRestoreExpected(); // using blending, RT restore expected
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_4 = ___to2;
 		NullCheck(L_4);
 		RenderTexture_MarkRestoreExpected_m817B77709580CCBC1D8F0787F855AAF1BBF4CEA9(L_4, /*hidden argument*/NULL);
@@ -11507,7 +11505,7 @@ IL_0050:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_17 = ___to2;
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_SetRenderTarget_m78AE234327CCDBCEA288FBEFB53D6CEAD3EFC939(L_17, /*hidden argument*/NULL);
-		// GL.Clear(false, true, Color.black); 
+		// GL.Clear(false, true, Color.black); // clear destination to avoid RT restore
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_18;
 		L_18 = Color_get_black_m67E91EB7017FC74D9AB5ADEF6B6929B7EFC9A982(/*hidden argument*/NULL);
 		GL_Clear_mF5FCE24D7F60731D6D88AA3DC98B0E88A644CD93((bool)0, (bool)1, L_18, /*hidden argument*/NULL);
@@ -11894,13 +11892,13 @@ IL_0081:
 		V_6 = ((float)((float)((float)il2cpp_codegen_multiply((float)(1.0f), (float)((float)((float)L_39))))/(float)((float)il2cpp_codegen_multiply((float)(1.0f), (float)((float)((float)L_41))))));
 		// float oneOverBaseSize = 1.0f / 512.0f;
 		V_7 = (0.001953125f);
-		// Graphics.Blit(source, halfRezColor, screenBlend, 2); 
+		// Graphics.Blit(source, halfRezColor, screenBlend, 2); // <- 2 is stable downsample
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_42 = ___source0;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_43 = V_2;
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_44 = __this->get_screenBlend_36();
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_Blit_mF7AA319E24D980D0E560A721966B87186392C3DD(L_42, L_43, L_44, 2, /*hidden argument*/NULL);
-		// Graphics.Blit(halfRezColor, quarterRezColor, screenBlend, 2); 
+		// Graphics.Blit(halfRezColor, quarterRezColor, screenBlend, 2); // <- 2 is stable downsample
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_45 = V_2;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_46 = V_3;
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_47 = __this->get_screenBlend_36();
@@ -13791,7 +13789,7 @@ IL_0021:
 		CameraMotionBlur_CalculateViewProjection_m31600E6AF375D5F3E0B26A0245F8D96C0D3CCBE2(__this, /*hidden argument*/NULL);
 		// Remember ();
 		CameraMotionBlur_Remember_mEE0013E27BC52F1698B9305BA79208B69BE1B5C3(__this, /*hidden argument*/NULL);
-		// wasActive = false; 
+		// wasActive = false; // hack to fake position/rotation update and prevent bad blurs
 		__this->set_wasActive_32((bool)0);
 		// }
 		return;
@@ -13920,7 +13918,7 @@ IL_0060:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CameraMotionBlur_CheckResources_mC05645DBA81165F2EA3C39AB9613CD6F79347D2C (CameraMotionBlur_tF020BCAD09E2C37EFAA631C8B9EBFC74A86429A9 * __this, const RuntimeMethod* method)
 {
 	{
-		// CheckSupport (true, true); 
+		// CheckSupport (true, true); // depth & hdr needed
 		bool L_0;
 		L_0 = PostEffectsBase_CheckSupport_mE0EC1B77136E251C3BF5934349332331CE5F1B1A(__this, (bool)1, (bool)1, /*hidden argument*/NULL);
 		// motionBlurMaterial = CheckShaderAndCreateMaterial (shader, motionBlurMaterial);
@@ -14111,7 +14109,7 @@ IL_002c:
 		float L_16;
 		L_16 = Mathf_Max_m4CE510E1F1013B33275F01543731A51A58BA0775((2.0f), L_15, /*hidden argument*/NULL);
 		__this->set_maxVelocity_13(L_16);
-		// float _maxVelocity = maxVelocity; 
+		// float _maxVelocity = maxVelocity; // calculate 'k'
 		float L_17 = __this->get_maxVelocity_13();
 		V_4 = L_17;
 		// bool fallbackFromDX11 = filterType == MotionBlurFilter.ReconstructionDX11 && dx11MotionBlurMaterial == null;
@@ -14405,7 +14403,7 @@ IL_01a9:
 		Matrix4x4_tDE7FF4F2E2EA284F6EFE00D627789D0E5B8B4461  L_103;
 		L_103 = Matrix4x4_get_identity_mC91289718DDD3DDBE0A10551BDA59A446414A596(/*hidden argument*/NULL);
 		V_10 = L_103;
-		// offset.SetTRS(previewScale * 0.3333f, Quaternion.identity, Vector3.one); 
+		// offset.SetTRS(previewScale * 0.3333f, Quaternion.identity, Vector3.one); // using only translation
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_104 = __this->get_previewScale_10();
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_105;
 		L_105 = Vector3_op_Multiply_m9EA3D18290418D7B410C7D11C4788C13BFD2C30A_inline(L_104, (0.333299994f), /*hidden argument*/NULL);
@@ -14504,7 +14502,7 @@ IL_0359:
 		int32_t L_140;
 		L_140 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_139);
 		V_15 = ((float)il2cpp_codegen_multiply((float)((float)((float)L_136/(float)L_138)), (float)((float)il2cpp_codegen_multiply((float)((float)((float)L_140)), (float)(0.75f)))));
-		// blurVector.x =  rotationScale * farHeur;
+		// blurVector.x =  rotationScale * farHeur;//Mathf.Clamp01((1.0ff-Vector3.Dot(transform.up, prevFrameUp)));
 		float L_141 = __this->get_rotationScale_12();
 		float L_142 = V_15;
 		(&V_12)->set_x_1(((float)il2cpp_codegen_multiply((float)L_141, (float)L_142)));
@@ -14526,7 +14524,7 @@ IL_0359:
 		int32_t L_150;
 		L_150 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_149);
 		V_15 = ((float)il2cpp_codegen_multiply((float)((float)((float)L_146/(float)L_148)), (float)((float)il2cpp_codegen_multiply((float)((float)((float)L_150)), (float)(0.75f)))));
-		// blurVector.y = rotationScale * lookUpDown * farHeur;
+		// blurVector.y = rotationScale * lookUpDown * farHeur;//Mathf.Clamp01((1.0ff-Vector3.Dot(transform.forward, prevFrameForward)));
 		float L_151 = __this->get_rotationScale_12();
 		float L_152 = V_13;
 		float L_153 = V_15;
@@ -14549,7 +14547,7 @@ IL_0359:
 		int32_t L_161;
 		L_161 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_160);
 		V_15 = ((float)il2cpp_codegen_multiply((float)((float)((float)L_157/(float)L_159)), (float)((float)il2cpp_codegen_multiply((float)((float)((float)L_161)), (float)(0.75f)))));
-		// blurVector.z = rotationScale * (1.0f- lookUpDown) * farHeur;
+		// blurVector.z = rotationScale * (1.0f- lookUpDown) * farHeur;//Mathf.Clamp01((1.0ff-Vector3.Dot(transform.forward, prevFrameForward)));
 		float L_162 = __this->get_rotationScale_12();
 		float L_163 = V_13;
 		float L_164 = V_15;
@@ -14625,7 +14623,7 @@ IL_0359:
 
 IL_0526:
 	{
-		// if (preview) 
+		// if (preview) // crude approximation
 		bool L_195 = __this->get_preview_9();
 		if (!L_195)
 		{
@@ -14678,7 +14676,7 @@ IL_059f:
 		Graphics_Blit_mF7AA319E24D980D0E560A721966B87186392C3DD(L_210, L_211, L_212, 0, /*hidden argument*/NULL);
 		// Camera cam = null;
 		V_16 = (Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C *)NULL;
-		// if (excludeLayers.value != 0)
+		// if (excludeLayers.value != 0)// || dynamicLayers.value)
 		LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 * L_213 = __this->get_address_of_excludeLayers_18();
 		int32_t L_214;
 		L_214 = LayerMask_get_value_m6380C7449537F99361797225E179A9448A53DDF9((LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8 *)L_213, /*hidden argument*/NULL);
@@ -15085,7 +15083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC380
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6;
 		L_6 = GameObject_Find_m20157C941F1A9DA0E33E0ACA1324FAA41C2B199B(L_5, /*hidden argument*/NULL);
 		V_1 = L_6;
-		// if (null == go) 
+		// if (null == go) // couldn't find, recreate
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_7 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -15240,21 +15238,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraMotionBlur__ctor_mBC1676C709F4B471
 	{
 		// public MotionBlurFilter filterType = MotionBlurFilter.Reconstruction;
 		__this->set_filterType_8(2);
-		// public Vector3 previewScale = Vector3.one;    
+		// public Vector3 previewScale = Vector3.one;    // ... given this movement vector
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_0;
 		L_0 = Vector3_get_one_m9CDE5C456038B133ED94402673859EC37B1C1CCB(/*hidden argument*/NULL);
 		__this->set_previewScale_10(L_0);
 		// public float rotationScale = 1.0f;
 		__this->set_rotationScale_12((1.0f));
-		// public float maxVelocity = 8.0f;    
+		// public float maxVelocity = 8.0f;    // maximum velocity in pixels
 		__this->set_maxVelocity_13((8.0f));
-		// public float minVelocity = 0.1f;    
+		// public float minVelocity = 0.1f;    // minimum velocity in pixels
 		__this->set_minVelocity_14((0.100000001f));
-		// public float velocityScale = 0.375f;    
+		// public float velocityScale = 0.375f;    // global velocity scale
 		__this->set_velocityScale_15((0.375f));
-		// public float softZDistance = 0.005f;    
+		// public float softZDistance = 0.005f;    // for z overlap check softness (reconstruction filter only)
 		__this->set_softZDistance_16((0.00499999989f));
-		// public int velocityDownsample = 1;    
+		// public int velocityDownsample = 1;    // low resolution velocity buffer? (optimization)
 		__this->set_velocityDownsample_17(1);
 		// public LayerMask excludeLayers = 0;
 		LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8  L_1;
@@ -15593,7 +15591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorCorrectionCurves_UpdateParameters_m
 	float V_3 = 0.0f;
 	float V_4 = 0.0f;
 	{
-		// CheckResources(); 
+		// CheckResources(); // textures might not be created if we're tweaking UI while disabled
 		bool L_0;
 		L_0 = VirtFuncInvoker0< bool >::Invoke(4 /* System.Boolean UnityStandardAssets.ImageEffects.PostEffectsBase::CheckResources() */, __this);
 		// if (redChannel != null && greenChannel != null && blueChannel != null)
@@ -18361,7 +18359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurveControlledBob__ctor_m2A603EDBB79CAE
 		__this->set_VerticalBobRange_1((0.330000013f));
 		// public AnimationCurve Bobcurve = new AnimationCurve(new Keyframe(0f, 0f), new Keyframe(0.5f, 1f),
 		//                                                     new Keyframe(1f, 0f), new Keyframe(1.5f, -1f),
-		//                                                     new Keyframe(2f, 0f)); 
+		//                                                     new Keyframe(2f, 0f)); // sin curve for head bob
 		KeyframeU5BU5D_tF817D582FE6B521008A03DDBB5D1326DD78DB0BC* L_0 = (KeyframeU5BU5D_tF817D582FE6B521008A03DDBB5D1326DD78DB0BC*)(KeyframeU5BU5D_tF817D582FE6B521008A03DDBB5D1326DD78DB0BC*)SZArrayNew(KeyframeU5BU5D_tF817D582FE6B521008A03DDBB5D1326DD78DB0BC_il2cpp_TypeInfo_var, (uint32_t)5);
 		KeyframeU5BU5D_tF817D582FE6B521008A03DDBB5D1326DD78DB0BC* L_1 = L_0;
 		Keyframe_tBEEE79DF5E970E48A8972FFFCE8B25A6068ACE9F  L_2;
@@ -18414,7 +18412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurveControlledBob__ctor_m2A603EDBB79CAE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DepthOfField_CheckResources_m5EC7F6ED1A81BA01A539318EEF6BFB9B821C0133 (DepthOfField_tE1B5C2BBE52C2DE5C2936A7BEC43D1DAC8EE70E7 * __this, const RuntimeMethod* method)
 {
 	{
-		// CheckSupport (true); 
+		// CheckSupport (true); // only requires depth, not HDR
 		bool L_0;
 		L_0 = PostEffectsBase_CheckSupport_m5EA3E87255F2A5B9D94BE3B0FDADC112A1D7A68C(__this, (bool)1, /*hidden argument*/NULL);
 		// dofHdrMaterial = CheckShaderAndCreateMaterial (dofHdrShader, dofHdrMaterial);
@@ -18831,7 +18829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthOfField_WriteCoc_mD0006129D479A788C
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_43 = V_1;
 		NullCheck(L_42);
 		Material_SetTexture_m04A1CD55201841F85E475992931A210229C782CF(L_42, _stringLiteral64990EDD2C87DB9746BEC2C8EA26EC5FAE2F1501, L_43, /*hidden argument*/NULL);
-		// fromTo.MarkRestoreExpected(); 
+		// fromTo.MarkRestoreExpected(); // only touching alpha channel, RT restore expected
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_44 = ___fromTo0;
 		NullCheck(L_44);
 		RenderTexture_MarkRestoreExpected_m817B77709580CCBC1D8F0787F855AAF1BBF4CEA9(L_44, /*hidden argument*/NULL);
@@ -18849,7 +18847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthOfField_WriteCoc_mD0006129D479A788C
 
 IL_010e:
 	{
-		// fromTo.MarkRestoreExpected(); 
+		// fromTo.MarkRestoreExpected(); // only touching alpha channel, RT restore expected
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_49 = ___fromTo0;
 		NullCheck(L_49);
 		RenderTexture_MarkRestoreExpected_m817B77709580CCBC1D8F0787F855AAF1BBF4CEA9(L_49, /*hidden argument*/NULL);
@@ -19422,7 +19420,7 @@ IL_03a8:
 		NullCheck(L_154);
 		bool L_155;
 		L_155 = Material_SetPass_mC888245491A21488CFF2FD64CA45E8404CB9FF9C(L_154, 2, /*hidden argument*/NULL);
-		// Graphics.Blit (dest2, destination);    
+		// Graphics.Blit (dest2, destination);    // hackaround for DX11 high resolution flipfun (OPTIMIZEME)
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_156 = V_5;
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_157 = ___destination1;
 		Graphics_Blit_m946B14CAE548AAFF3FC223AB54DC5D10AEF760F7(L_156, L_157, /*hidden argument*/NULL);
@@ -20914,7 +20912,7 @@ IL_0231:
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_100 = __this->get_dofMaterial_28();
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_Blit_mF7AA319E24D980D0E560A721966B87186392C3DD(L_98, L_99, L_100, ((int32_t)11), /*hidden argument*/NULL);
-		// Graphics.Blit (mediumRezWorkTexture, lowRezWorkTexture);
+		// Graphics.Blit (mediumRezWorkTexture, lowRezWorkTexture);//, dofMaterial, 10);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_101 = __this->get_mediumRezWorkTexture_45();
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_102 = __this->get_lowRezWorkTexture_47();
 		Graphics_Blit_m946B14CAE548AAFF3FC223AB54DC5D10AEF760F7(L_101, L_102, /*hidden argument*/NULL);
@@ -20989,7 +20987,7 @@ IL_0404:
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_126 = __this->get_finalDefocus_46();
 		NullCheck(L_125);
 		Material_SetTexture_m04A1CD55201841F85E475992931A210229C782CF(L_125, _stringLiteral6ED00DC32D26D64245CD86F48BE5FFAF6E36B31E, L_126, /*hidden argument*/NULL);
-		// dofMaterial.SetTexture ("_TapMedium", mediumRezWorkTexture); 
+		// dofMaterial.SetTexture ("_TapMedium", mediumRezWorkTexture); // needed for debugging/visualization
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_127 = __this->get_dofMaterial_28();
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_128 = __this->get_mediumRezWorkTexture_45();
 		NullCheck(L_127);
@@ -21106,7 +21104,7 @@ IL_044f:
 		Material_t8927C00353A72755313F046D0CE85178AE8218EE * L_152 = __this->get_dofMaterial_28();
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t97FAEBE964F3F622D4865E7EC62717FE94D1F56D_il2cpp_TypeInfo_var);
 		Graphics_Blit_mF7AA319E24D980D0E560A721966B87186392C3DD(L_150, L_151, L_152, ((int32_t)11), /*hidden argument*/NULL);
-		// Graphics.Blit (mediumRezWorkTexture, lowRezWorkTexture);
+		// Graphics.Blit (mediumRezWorkTexture, lowRezWorkTexture);//, dofMaterial, 10);
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_153 = __this->get_mediumRezWorkTexture_45();
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_154 = __this->get_lowRezWorkTexture_47();
 		Graphics_Blit_m946B14CAE548AAFF3FC223AB54DC5D10AEF760F7(L_153, L_154, /*hidden argument*/NULL);
@@ -21626,7 +21624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DepthOfFieldDeprecated_AddBokeh_m0F5893D
 		}
 	}
 	{
-		// var meshes = Quads.GetMeshes (tempTex.width, tempTex.height);    
+		// var meshes = Quads.GetMeshes (tempTex.width, tempTex.height);    // quads: exchanging more triangles with less overdraw
 		RenderTexture_t5FE7A5B47EF962A0E8D7BEBA05E9FC87D49A1849 * L_2 = ___tempTex1;
 		NullCheck(L_2);
 		int32_t L_3;

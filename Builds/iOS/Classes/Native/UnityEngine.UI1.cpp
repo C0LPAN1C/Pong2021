@@ -2324,7 +2324,7 @@ public:
 };
 
 
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D12
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
 struct  __StaticArrayInitTypeSizeU3D12_t7F7209CE80E982A37AD0FED34F45A96EFE184746 
 {
 public:
@@ -2354,7 +2354,7 @@ public:
 struct U3CPrivateImplementationDetailsU3E_tA4B8E3F98E3B6A41218937C44898DCEE20629F8F_StaticFields
 {
 public:
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSizeU3D12 <PrivateImplementationDetails>::1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB
 	__StaticArrayInitTypeSizeU3D12_t7F7209CE80E982A37AD0FED34F45A96EFE184746  ___1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB_0;
 
 public:
@@ -12134,7 +12134,7 @@ IL_017d:
 		}
 	}
 	{
-		// nVertices = (nTilesW + 2.0) * (nTilesH + 2.0) * 4.0; 
+		// nVertices = (nTilesW + 2.0) * (nTilesH + 2.0) * 4.0; // 4 vertices per tile
 		int64_t L_80 = V_15;
 		int64_t L_81 = V_16;
 		V_17 = ((double)il2cpp_codegen_multiply((double)((double)il2cpp_codegen_multiply((double)((double)il2cpp_codegen_add((double)((double)((double)L_80)), (double)(2.0))), (double)((double)il2cpp_codegen_add((double)((double)((double)L_81)), (double)(2.0))))), (double)(4.0)));
@@ -12144,7 +12144,7 @@ IL_017d:
 
 IL_01ee:
 	{
-		// nVertices = nTilesW * nTilesH * 4.0; 
+		// nVertices = nTilesW * nTilesH * 4.0; // 4 vertices per tile
 		int64_t L_82 = V_15;
 		int64_t L_83 = V_16;
 		V_17 = ((double)il2cpp_codegen_multiply((double)((double)((double)((int64_t)il2cpp_codegen_multiply((int64_t)L_82, (int64_t)L_83)))), (double)(4.0)));
@@ -12167,7 +12167,7 @@ IL_0200:
 		L_86 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(_stringLiteral109026A74E40125B82680DF886A9C0EC889E8AF9, L_85, _stringLiteralA2173363298560C5C3C943D7C44C7048F4755B84, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_LogError_mEFF048E5541EE45362C0AAD829E3FA4C2CAB9199(L_86, __this, /*hidden argument*/NULL);
-		// double maxTiles = 65000.0 / 4.0; 
+		// double maxTiles = 65000.0 / 4.0; // Max number of vertices is 65000; 4 vertices per tile.
 		// if (hasBorder)
 		bool L_87;
 		L_87 = Image_get_hasBorder_m444A40E69275ED3748079EBF6D6FD489FD17CA51(__this, /*hidden argument*/NULL);
@@ -12296,7 +12296,7 @@ IL_02c8:
 		L_121 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(_stringLiteral109026A74E40125B82680DF886A9C0EC889E8AF9, L_120, _stringLiteralA2173363298560C5C3C943D7C44C7048F4755B84, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_LogError_mEFF048E5541EE45362C0AAD829E3FA4C2CAB9199(L_121, __this, /*hidden argument*/NULL);
-		// double maxTiles = 65000.0 / 4.0; 
+		// double maxTiles = 65000.0 / 4.0; // Max number of vertices is 65000; 4 vertices per tile.
 		// double imageRatio = (double)nTilesW / nTilesH;
 		int64_t L_122 = V_15;
 		int64_t L_123 = V_16;
@@ -15171,13 +15171,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Image_IsRaycastLocationValid_m216026118F
 	float V_4 = 0.0f;
 	bool V_5 = false;
 	UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 * V_6 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		// if (alphaHitTestMinimumThreshold <= 0)
 		float L_0;
@@ -15342,16 +15337,18 @@ IL_00e6:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_010d;
+		}
 		throw e;
 	}
 
 CATCH_010d:
 	{ // begin catch(UnityEngine.UnityException)
 		// catch (UnityException e)
-		V_6 = ((UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)__exception_local);
+		V_6 = ((UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *)IL2CPP_GET_ACTIVE_EXCEPTION(UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 *));
 		// Debug.LogError("Using alphaHitTestMinimumThreshold greater than 0 on Image whose sprite texture cannot be read. " + e.Message + " Also make sure to disable sprite packing for this sprite.", this);
 		UnityException_t5BD9575D9E8FC894770E16640BBC9C2A3DF40101 * L_47 = V_6;
 		NullCheck(L_47);
@@ -15363,6 +15360,7 @@ CATCH_010d:
 		Debug_LogError_mEFF048E5541EE45362C0AAD829E3FA4C2CAB9199(L_49, __this, /*hidden argument*/NULL);
 		// return true;
 		V_5 = (bool)1;
+		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0130;
 	} // end catch (depth: 1)
 
@@ -16259,7 +16257,7 @@ IL_000f:
 
 IL_0019:
 	{
-		// value = value.Replace("\0", string.Empty); 
+		// value = value.Replace("\0", string.Empty); // remove embedded nulls
 		String_t* L_4 = ___value0;
 		String_t* L_5 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->get_Empty_5();
 		NullCheck(L_4);
@@ -23326,7 +23324,7 @@ IL_02bd:
 
 IL_02c6:
 	{
-		// ++m_DrawStart;  
+		// ++m_DrawStart;  // move right one to the last character we could fit on the left
 		int32_t L_142 = __this->get_m_DrawStart_60();
 		__this->set_m_DrawStart_60(((int32_t)il2cpp_codegen_add((int32_t)L_142, (int32_t)1)));
 		// }
@@ -23958,12 +23956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_OnFillVBO_mF25F719237FB66905C
 	Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		// using (var helper = new VertexHelper())
 		VertexHelper_tDE8B67D3B076061C4F8DF325B0D63ED2E5367E55 * L_0 = (VertexHelper_tDE8B67D3B076061C4F8DF325B0D63ED2E5367E55 *)il2cpp_codegen_object_new(VertexHelper_tDE8B67D3B076061C4F8DF325B0D63ED2E5367E55_il2cpp_TypeInfo_var);
@@ -25693,7 +25686,7 @@ IL_01d8:
 		}
 	}
 	{
-		// if (pos != 0) 
+		// if (pos != 0) // Don't allow leading spaces
 		int32_t L_91 = ___pos1;
 		if (!L_91)
 		{

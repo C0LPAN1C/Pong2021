@@ -9981,12 +9981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CregisterDeviceWithGameThriveU3Ed__84_
 {
 	int32_t V_0 = 0;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
@@ -10075,12 +10070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CregisterDeviceWithGameThriveU3Ed__84_
 	memset((&V_7), 0, sizeof(V_7));
 	String_t* V_8 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 4);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 4> __leave_targets;
 
 IL_0000:
 	try
@@ -10113,7 +10103,7 @@ IL_0011:
 IL_0018:
 		{
 			__this->set_U3CU3E1__state_0((-1));
-			// var url = string.Format("https:
+			// var url = string.Format("https://gamethrive.com/api/v1/players");
 			ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_3;
 			L_3 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
 			String_t* L_4;
@@ -10658,12 +10648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CregisterDeviceWithPushIOU3Ed__85_Syst
 {
 	int32_t V_0 = 0;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
@@ -10730,12 +10715,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CregisterDeviceWithPushIOU3Ed__85_Move
 	int32_t V_1 = 0;
 	String_t* V_2 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 
 IL_0000:
 	try
@@ -10768,7 +10748,7 @@ IL_000e:
 IL_0015:
 		{
 			__this->set_U3CU3E1__state_0((-1));
-			// var url = string.Format( "https:
+			// var url = string.Format( "https://api.push.io/r/{0}?di={1}&dt={2}", pushIOApiKey, SystemInfo.deviceUniqueIdentifier, deviceToken );
 			IL2CPP_RUNTIME_CLASS_INIT(EtceteraManager_t82DD37829F3B93A2839257C6BC2E0C4E9A292921_il2cpp_TypeInfo_var);
 			String_t* L_3 = ((EtceteraManager_t82DD37829F3B93A2839257C6BC2E0C4E9A292921_StaticFields*)il2cpp_codegen_static_fields_for(EtceteraManager_t82DD37829F3B93A2839257C6BC2E0C4E9A292921_il2cpp_TypeInfo_var))->get_pushIOApiKey_30();
 			String_t* L_4;
@@ -10959,12 +10939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CtextureFromFileAtPathU3Ed__80_System_
 {
 	int32_t V_0 = 0;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
@@ -11030,12 +11005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CtextureFromFileAtPathU3Ed__80_MoveNex
 	int32_t V_1 = 0;
 	Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * V_2 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 3);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 3> __leave_targets;
 
 IL_0000:
 	try

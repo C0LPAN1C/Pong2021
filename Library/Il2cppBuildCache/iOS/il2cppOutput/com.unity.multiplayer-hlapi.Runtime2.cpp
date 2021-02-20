@@ -12902,12 +12902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkScene_DestroyAllClientObjects_m60
 	NetworkSceneId_tA36CFF0927FA9BA8ADCD472BCA4497629700B245  V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// foreach (var netId in m_LocalObjects.Keys)
 		Dictionary_2_tA706551004894B5646ECC7BB84963AA9B34AF4AC * L_0 = __this->get_m_LocalObjects_0();
@@ -13102,12 +13097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkScene_DumpAllClientObjects_m15125
 	NetworkHash128_tD92DB4328785C99A0A36CF69383DE37A7E5DDC26  V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * G_B5_0 = NULL;
 	int32_t G_B5_1 = 0;
 	StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* G_B5_2 = NULL;
@@ -13794,12 +13784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkServer_t58D8E227F95892D5696E70C29CE45C
 	RuntimeObject * V_0 = NULL;
 	bool V_1 = false;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// if (s_Instance == null)
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkServer_t58D8E227F95892D5696E70C29CE45C9251DE1CA2_il2cpp_TypeInfo_var);
@@ -14621,12 +14606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkClient_tDF49EEA6C37621FAD16BEFCE2DD982
 	NetworkInstanceId_t991B9FFB8420732E99A6A91162944C5F24CFFC51  V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// if (s_Active)
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkServer_t58D8E227F95892D5696E70C29CE45C9251DE1CA2_il2cpp_TypeInfo_var);
@@ -15387,12 +15367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkServer_ActivateLocalClientScene_m
 	NetworkInstanceId_t991B9FFB8420732E99A6A91162944C5F24CFFC51  V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * G_B8_0 = NULL;
 	String_t* G_B8_1 = NULL;
 	String_t* G_B8_2 = NULL;
@@ -16143,13 +16118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkServer_SendBytesToReady_m996FAF89
 	int32_t V_5 = 0;
 	int32_t V_6 = 0;
 	NetworkConnection_tB063443D5B6E5081055F6408D24EA859C9D31840 * V_7 = NULL;
-	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * G_B23_0 = NULL;
 	String_t* G_B23_1 = NULL;
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * G_B22_0 = NULL;
@@ -16440,9 +16410,11 @@ IL_00cf:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NullReferenceException_t44B4F3CDE3111E74591952B8BE8707B28866D724_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 			goto CATCH_00d1;
+		}
 		throw e;
 	}
 
@@ -16502,6 +16474,7 @@ IL_00eb:
 IL_00fa:
 		{
 			// }
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			goto IL_00fc;
 		}
 	} // end catch (depth: 1)
@@ -17392,12 +17365,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkServer_UpdateServerObjects_mDFFC5
 	NetworkIdentity_tD4B98454B255912A80CC56FFE85D1858C3D05E11 * V_1 = NULL;
 	int32_t V_2 = 0;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 4);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 4> __leave_targets;
 	{
 		// foreach (var uv in objects.Values)
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkServer_t58D8E227F95892D5696E70C29CE45C9251DE1CA2_il2cpp_TypeInfo_var);
@@ -17439,11 +17408,16 @@ IL_001a:
 		} // end try (depth: 2)
 		catch(Il2CppExceptionWrapper& e)
 		{
-			__exception_local = (Exception_t *)e.ex;
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NullReferenceException_t44B4F3CDE3111E74591952B8BE8707B28866D724_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0022;
+			}
 			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&MissingReferenceException_t0957F7F403A0B9249CE6AB66FAD46E626F787EE8_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+			{
+				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
 				goto CATCH_0025;
+			}
 			throw e;
 		}
 
@@ -17451,6 +17425,7 @@ CATCH_0022:
 		{ // begin catch(System.NullReferenceException)
 			// catch (NullReferenceException)
 			// }
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			goto IL_0028;
 		} // end catch (depth: 2)
 
@@ -17458,6 +17433,7 @@ CATCH_0025:
 		{ // begin catch(UnityEngine.MissingReferenceException)
 			// catch (MissingReferenceException)
 			// }
+			IL2CPP_POP_ACTIVE_EXCEPTION();
 			goto IL_0028;
 		} // end catch (depth: 2)
 
@@ -17552,12 +17528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkServer_CheckForNullObjects_mD9626
 	NetworkInstanceId_t991B9FFB8420732E99A6A91162944C5F24CFFC51  V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		// foreach (var k in objects.Keys)
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkServer_t58D8E227F95892D5696E70C29CE45C9251DE1CA2_il2cpp_TypeInfo_var);
@@ -19974,12 +19945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkServer_SetClientReadyInternal_mC8
 	NetworkInstanceId_t991B9FFB8420732E99A6A91162944C5F24CFFC51  V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
 		// if (LogFilter.logDebug) { Debug.Log("SetClientReadyInternal for conn:" + conn.connectionId); }
 		IL2CPP_RUNTIME_CLASS_INIT(LogFilter_tE67E8F1E7D995A98F0B4E262337040B1E0A6A3C8_il2cpp_TypeInfo_var);
@@ -21834,12 +21800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkServer_DestroyPlayersForConnectio
 	int32_t V_2 = 0;
 	PlayerController_tC346F9788A15DB87623DD99396C824504BE42F01 * V_3 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// if (conn.playerControllers.Count == 0)
 		NetworkConnection_tB063443D5B6E5081055F6408D24EA859C9D31840 * L_0 = ___conn0;
@@ -22867,7 +22828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkServer_InvokeBytes_mF434CD0B32FC4
 		NetworkReader_t90CCC47A1763206F2FFF55F65E43CEC817E80D4E * L_1 = (NetworkReader_t90CCC47A1763206F2FFF55F65E43CEC817E80D4E *)il2cpp_codegen_object_new(NetworkReader_t90CCC47A1763206F2FFF55F65E43CEC817E80D4E_il2cpp_TypeInfo_var);
 		NetworkReader__ctor_mB267BE4DCC9F7561262E398535029800FCB4565B(L_1, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		// reader.ReadInt16(); 
+		// reader.ReadInt16(); // size
 		NetworkReader_t90CCC47A1763206F2FFF55F65E43CEC817E80D4E * L_2 = V_0;
 		NullCheck(L_2);
 		int16_t L_3;
@@ -23068,12 +23029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_tE8371663EC9914BEC5F635B74C54849
 	int16_t V_4 = 0;
 	PacketStat_t9C5955034969A476075A6CF1BD2EF38338EAEB31 * V_5 = NULL;
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// Dictionary<short, NetworkConnection.PacketStat> stats = new Dictionary<short, NetworkConnection.PacketStat>();
 		Dictionary_2_tE8371663EC9914BEC5F635B74C54849B326ADE0C * L_0 = (Dictionary_2_tE8371663EC9914BEC5F635B74C54849B326ADE0C *)il2cpp_codegen_object_new(Dictionary_2_tE8371663EC9914BEC5F635B74C54849B326ADE0C_il2cpp_TypeInfo_var);
@@ -23923,12 +23879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkServer_SendCrc_m27BACDB234F0A3E22
 	CRCMessageEntry_t7E6DC9916541F50A3462272FC2C7BAB00453B37E  V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	Exception_t * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	void* __leave_targets_storage = alloca(sizeof(int32_t) * 1);
-	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
-	NO_UNUSED_WARNING (__leave_targets);
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
 	{
 		// if (NetworkCRC.singleton == null)
 		NetworkCRC_t870128198CF6A79D67DC8E52074A2398AA9624FA * L_0;
@@ -28977,7 +28928,7 @@ IL_00dd:
 
 IL_00ec:
 	{
-		// var totalDistToTarget = (m_TargetSyncPosition - transform.position); 
+		// var totalDistToTarget = (m_TargetSyncPosition - transform.position); // 5 units
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_37 = __this->get_m_TargetSyncPosition_26();
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_38;
 		L_38 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);

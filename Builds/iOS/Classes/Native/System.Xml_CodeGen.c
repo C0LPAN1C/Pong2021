@@ -29,6 +29,8 @@ const Il2CppCodeGenModule g_System_Xml_CodeGenModule =
 	"System.Xml.dll",
 	1,
 	s_methodPointers,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
