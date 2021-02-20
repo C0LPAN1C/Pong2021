@@ -45,7 +45,7 @@ static Il2CppMethodPointer s_methodPointers[9] =
 static const int32_t s_InvokerIndices[9] = 
 {
 	1397,
-	568,
+	569,
 	1632,
 	1127,
 	1632,
@@ -61,6 +61,8 @@ const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModule_CodeGenModule =
 	"UnityEngine.UnityWebRequestWWWModule.dll",
 	9,
 	s_methodPointers,
+	0,
+	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
